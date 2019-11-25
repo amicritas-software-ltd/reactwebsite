@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 class Topbar extends Component {
+  componentDidMount() {}
   render() {
     return (
-      <div class="top-bar">
-        <div class="top-info">
-          <div class="container">
-            <ul class="personal-info">
+      <div className="top-bar">
+        <div className="top-info">
+          <div className="container">
+            <ul className="personal-info">
               <li>
                 <p>
-                  <i class="fa fa-phone"></i> +8801643059745
+                  <i className="fa fa-phone"></i> +8801643059745
                 </p>
               </li>
               <li>
@@ -19,26 +20,26 @@ class Topbar extends Component {
               </li>
             </ul>
 
-            <div class="right-sec">
-              <ul class="social">
+            <div className="right-sec">
+              <ul className="social">
                 <li>
                   <a href="#.">
-                    <i class="fa fa-facebook"></i>
+                    <i className="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#.">
-                    <i class="fa fa-twitter"></i>
+                    <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#.">
-                    <i class="fa fa-google"></i>
+                    <i className="fa fa-google"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#.">
-                    <i class="fa fa-linkedin"></i>
+                    <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
               </ul>

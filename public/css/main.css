@@ -399,10 +399,10 @@ header nav .ownmenu ul.dropdown .indicator {
 	background: #555;
 }
 .colio-theme-black .colio-prev span {
-	background: url(../images/controls.png) no-repeat 0 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls.png) no-repeat 0 0;
 }
 .colio-theme-black .colio-next span {
-	background: url(../images/controls.png) no-repeat -24px 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls.png) no-repeat -24px 0;
 }
 .colio-theme-black .colio-no-prev, .colio-theme-black .colio-no-next {
 	background: #555!important;
@@ -418,6 +418,10 @@ header nav .ownmenu ul.dropdown .indicator {
 .colio-theme-black a, .colio-theme-black a:visited {
 }
 .colio-theme-black a:hover {
+}
+
+.colio-theme-black .colio-navigation{
+	margin-bottom:15px !important;
 }
 .colio-theme-black a.visit-link {
 	display: inline-block;
@@ -552,15 +556,15 @@ header nav .ownmenu ul.dropdown .indicator {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
 .colio-theme-black .colio-prev span {
-	background: url(images/controls@2x.png) no-repeat 0 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls@2x.png) no-repeat 0 0;
 	background-size: 72px 24px;
 }
 .colio-theme-black .colio-next span {
-	background: url(images/controls@2x.png) no-repeat -24px 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls@2x.png) no-repeat -24px 0;
 	background-size: 72px 24px;
 }
 .colio-theme-black .colio-close span {
-	background: url(images/controls@2x.png) no-repeat -48px 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls@2x.png) no-repeat -48px 0;
 	background-size: 72px 24px;
 }
 }

@@ -3918,11 +3918,11 @@ header .navbar li.active a {
 	letter-spacing:9px;
 }
 .home-slide .slide-img-1 {
-	background: url(../images/slides/slide-1.jpg) no-repeat;
+	background: url(http://new.uouapps.com/iod-html/html/images/slides/slide-1.jpg) no-repeat;
 	background-size: cover;
 }
 .home-slide .slide-img-2 {
-	background: url(../images/slides/slide-2.jpg) center center no-repeat;
+	background: url(http://new.uouapps.com/iod-html/html/images/slides/slide-2.jpg) center center no-repeat;
 	background-size: cover;
 }
 .home-slide .flex-control-nav {
@@ -4233,10 +4233,10 @@ header .navbar li.active a {
 }
 .colio-theme-black .colio-navigation {
 	left: 30px;
-	top: 85px;
+	top: 70px;
 }
 .colio-theme-black .colio-close{
-	top: 85px;
+	top: 70px;
 }
 /*=======================================================
       checkout
@@ -4837,8 +4837,11 @@ header .navbar li.active a {
       TESTI
 ========================================================*/
 .testi-bg {
-	background: url(../images/bg/bg-testi.jpg) center center fixed no-repeat;
+	background: url(http://new.uouapps.com/iod-html/html/images/bg/bg-testi.jpg) center center fixed no-repeat;
 	background-size: cover;
+}
+.custom-color{
+color:green !important;
 }
 .testi {
 	width: 83%;
@@ -5364,7 +5367,7 @@ header .navbar li.active a {
       CLIENTS
 ========================================================*/
 .clients {
-	background: url(../images/bg/client-bg.jpg) fixed no-repeat;
+	background: url(http://new.uouapps.com/iod-html/html/images/bg/client-bg.jpg) fixed no-repeat;
 	background-size: cover;
 }
 .clients .col-5 li {
@@ -5456,7 +5459,7 @@ footer {
 }
 footer .about-foot {
 	margin-top: 20px;
-	background: url(../images/footer-map.jpg) center center no-repeat;
+	background: url(http://new.uouapps.com/iod-html/html/images/footer-map.jpg) center center no-repeat;
 }
 footer .about-foot i {
 	margin-right: 10px;

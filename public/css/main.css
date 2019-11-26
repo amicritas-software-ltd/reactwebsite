@@ -122,7 +122,7 @@ header nav .ownmenu ul.dropdown .indicator {
 }
 .ownmenu ul.dropdown li:hover > a {
 	color: #fff;
-	background: #1193d4;
+	background: rgb(143, 41, 74);
 }
 .ownmenu ul.dropdown li ul.dropdown.left {
 	left: auto;
@@ -364,7 +364,7 @@ header nav .ownmenu ul.dropdown .indicator {
 	height: 34px;
 	width: 34px;
 	display: inline-block;
-	background: #1193d4;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	font-style: normal;
 	text-align: center;
 	line-height: 32px;
@@ -389,26 +389,26 @@ header nav .ownmenu ul.dropdown .indicator {
 	float: left;
 	padding: 5px;
 	margin-right: 5px;
-	background: #1193d4;
+	background: linear-gradient(to top, #ad5389, #3c1053);
 	-webkit-transition: background .1s;
 	-moz-transition: background .1s;
 	-o-transition: background .1s;
 	transition: background .1s;
 }
 .colio-theme-black .colio-navigation a:hover {
-	background: #555;
+	background: rgb(165, 165, 165);
 }
 .colio-theme-black .colio-prev span {
-	background: url(../images/controls.png) no-repeat 0 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls.png) no-repeat 0 0;
 }
 .colio-theme-black .colio-next span {
-	background: url(../images/controls.png) no-repeat -24px 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls.png) no-repeat -24px 0;
 }
 .colio-theme-black .colio-no-prev, .colio-theme-black .colio-no-next {
 	background: #555!important;
 }
 .colio-theme-black {
-	color: #999;
+	color: rgb(184, 184, 184);
 }
 .colio-theme-black h3 {
 	padding: 0;
@@ -418,6 +418,10 @@ header nav .ownmenu ul.dropdown .indicator {
 .colio-theme-black a, .colio-theme-black a:visited {
 }
 .colio-theme-black a:hover {
+}
+
+.colio-theme-black .colio-navigation{
+	margin-bottom:15px !important;
 }
 .colio-theme-black a.visit-link {
 	display: inline-block;
@@ -552,15 +556,15 @@ header nav .ownmenu ul.dropdown .indicator {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
 .colio-theme-black .colio-prev span {
-	background: url(images/controls@2x.png) no-repeat 0 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls@2x.png) no-repeat 0 0;
 	background-size: 72px 24px;
 }
 .colio-theme-black .colio-next span {
-	background: url(images/controls@2x.png) no-repeat -24px 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls@2x.png) no-repeat -24px 0;
 	background-size: 72px 24px;
 }
 .colio-theme-black .colio-close span {
-	background: url(images/controls@2x.png) no-repeat -48px 0;
+	background: url(http://new.uouapps.com/iod-html/html/images/controls@2x.png) no-repeat -48px 0;
 	background-size: 72px 24px;
 }
 }
@@ -4473,7 +4477,7 @@ transform:translateY(0)
 }
 .cbp-l-loadMore-bgbutton .cbp-l-loadMore-link {
 	border: 1px solid #DEDEDE;
-	color: #7E7B7B;
+	color: rgb(255, 255, 255);
 	display: inline-block;
 	font: 400 13px/40px "Lato", sans-serif;
 	min-width: 80px;
@@ -4487,18 +4491,18 @@ transform:translateY(0)
 	transition: color .25s
 }
 .cbp-l-loadMore-bgbutton .cbp-l-loadMore-link:hover, .cbp-l-loadMore-bgbutton .cbp-l-loadMore-link.cbp-l-loadMore-loading {
-	color: #B0B0B0
+	color: rgb(255, 255, 255)
 }
 .cbp-l-loadMore-bgbutton .cbp-l-loadMore-link.cbp-l-loadMore-stop {
 	cursor: default;
-	color: #B0B0B0
+	color: rgb(255, 255, 255)
 }
 .cbp-l-loadMore-button {
 	text-align: center
 }
 .cbp-l-loadMore-button .cbp-l-loadMore-link, .cbp-l-loadMore-button .cbp-l-loadMore-button-link {
-	border: 1px solid #DEDEDE;
-	color: #7E7B7B;
+	border: 1px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 	display: inline-block;
 	font: 400 12px/36px "Open Sans", sans-serif;
 	min-width: 80px;
@@ -4522,14 +4526,14 @@ transform:translateY(0)
 }
 .cbp-l-loadMore-text .cbp-l-loadMore-link, .cbp-l-loadMore-text .cbp-l-loadMore-text-link {
 	font: 400 15px "Open Sans", sans-serif;
-	color: #7E7B7B;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	cursor: pointer;
 	margin-top: 50px;
 	display: block
 }
 .cbp-l-loadMore-text .cbp-l-loadMore-stop, .cbp-l-loadMore-text .cbp-l-loadMore-text-stop {
-	color: #B0B0B0;
+	color: rgb(255, 255, 255);
 	cursor: default
 }
 .cbp-mode-slider {

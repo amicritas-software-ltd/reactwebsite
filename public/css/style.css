@@ -4842,6 +4842,10 @@ header .navbar li.active a {
 }
 .custom-color{
 color:green !important;
+background-size: cover;
+}
+.custom-color{
+color:green !important;
 }
 .testi {
 	width: 83%;

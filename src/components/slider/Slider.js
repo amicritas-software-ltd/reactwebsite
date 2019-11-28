@@ -8,6 +8,8 @@ class Slider extends Component {
             <div class="position-center-center">
               <h1>Welcome to Amicritas</h1>
               <h5>Vision of great future</h5>
+              <h1>Information on Demand</h1>
+              <h5>Truly Corporate Theme</h5>
               <a href="#." class="btn margin-top-30">
                 Read More <i class="fa fa-caret-right"></i>
               </a>{" "}
@@ -18,6 +20,8 @@ class Slider extends Component {
             <div class="position-center-center">
             <h1>Welcome to ASL</h1>
               <h5>Second Slide</h5>
+              <h1>iod HTML5 template</h1>
+              <h5>Truly Corporate Theme</h5>
               <a href="#." class="btn margin-top-30">
                 Read More <i class="fa fa-caret-right"></i>
               </a>{" "}

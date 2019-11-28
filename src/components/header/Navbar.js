@@ -9,6 +9,7 @@ class Navbar extends Component {
           <div className="container">
             <div className="logo">
               <a href="#.">
+                <img className="img-responsive" src={Logo} alt="logo" />
                 <img className="img-responsive" src={Logo} alt="" />
               </a>
             </div>

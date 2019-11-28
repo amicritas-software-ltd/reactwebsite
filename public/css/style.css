@@ -3351,7 +3351,7 @@ body {
 ========================================================*/
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	color: #252525;
+	color: #000000;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	letter-spacing: 0.5px;
@@ -3408,7 +3408,7 @@ li {
 }
 a {
 	text-decoration: none;
-	color: #141414;
+	color: #ffffff;
 }
 .font-open-sans {
 	font-family: 'Open Sans', sans-serif;
@@ -3441,7 +3441,7 @@ p.intro-small {
 	text-transform: none !important;
 }
 .text-white {
-	color: #fff !important;
+	color: rgb(255, 255, 255) !important;
 }
 .text-bold {
 	font-weight: bold !important;
@@ -3465,10 +3465,10 @@ p.intro-small {
 	font-weight: bold !important;
 }
 a:hover, a:focus {
-	color: #1193d4;
+	color: #ad5389;
 }
 .primary-color {
-	color: #1193d4 !important;
+	color: #ad5389 !important;
 }
 .position-center-center {
 	left: 50%;
@@ -3480,7 +3480,7 @@ a:hover, a:focus {
 	transform: translate(-50%, -50%);
 }
 .white-bg {
-	background: #fff !important;
+	background: rgb(233, 233, 233) !important;
 }
 .relative {
 	position: relative;
@@ -3495,10 +3495,10 @@ a:hover, a:focus {
 	line-height: 26px !important;
 }
 .dark-text p {
-	color: #141414;
+	color: #ffffff;
 }
 .light-gray-bg {
-	background: #f7f7f7 !important;
+	background: rgb(255, 255, 255) !important;
 }
 /*=======================================================
       BTN STYLE
@@ -3519,7 +3519,7 @@ a:hover, a:focus {
 	padding-right:55px;
 	padding-left: 20px;
 	line-height: 40px;
-	background: #00b1f1;
+	background: linear-gradient(to left,#ad5389,#3c1053);
 	letter-spacing: 0.5px;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -3528,8 +3528,8 @@ a:hover, a:focus {
 	transition: 0.4s ease-in-out;
 }
 .btn i {
-	color: #1193d4;
-	background: #fff;
+	color: #9233be;
+	background: rgb(218, 218, 218);
 	height: 41px;
 	padding: 0 15px;
 	float: right;
@@ -3545,19 +3545,19 @@ a:hover, a:focus {
 	transition: 0.4s ease-in-out;
 }
 .btn:hover {
-	background: #333333;
-	color: #fff;
+	background:linear-gradient(to right,#ad5389,#3c1053);
+	color: rgb(99, 98, 194);
 }
 .btn:hover i {
-	color: #333333;
+	color: #3f28a3;
 }
 .btn-1 i {
-	background: #333333;
-	color: #fff;
+	background: linear-gradient(to left, #ad5389, #3c1053);
+	color: #ffffff;
 }
 .btn-1:hover i {
-	color: #fff;
-	background: #00b1f1;
+	color: rgb(152, 89, 204);
+	background: #3c1053;
 }
 .btn-sm {
 	height: 30px;
@@ -3581,7 +3581,7 @@ a:hover, a:focus {
 section {
 	position: relative;
 	overflow: hidden;
-	background: #fff;
+	background: rgb(202, 202, 202);
 	margin-top:-5px;
 }
 /*=======================================================
@@ -3677,7 +3677,7 @@ section {
 }
 .top-info .social li a:hover {
 	color: #fff;
-	background: #1193d4;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 }
 .right-sec {
 	float: right;
@@ -3751,7 +3751,7 @@ header .navbar {
 	padding: 20px 0;
 	border: none;
 	display: inline-block;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	box-shadow:0 1px 3px rgba(0,0,0,0.2);
 }
 header .navbar li {
@@ -3777,11 +3777,11 @@ header .navbar li a {
 	text-transform: uppercase;
 }
 header .navbar li a:hover {
-	background: #1193d4;
+  background: linear-gradient(to right, #ad5389, #3c1053);
 	color: #fff;
 }
 header .navbar li.active a {
-	background: #1193d4;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	color: #fff;
 }
 .ownmenu ul.dropdown {
@@ -3891,7 +3891,7 @@ header .navbar li.active a {
 	width: 100%;
 }
 .search-icon a:hover {
-	background: #1193d4;
+	background: linear-gradient(to bottom,#ad5389,#3c1053);
 	color: #fff;
 }
 /*=======================================================
@@ -3979,7 +3979,7 @@ header .navbar li.active a {
 }
 .sub-bnr .breadcrumb li a {
 	text-transform: uppercase;
-	color: #1193d4;
+	color: linear-gradient(to bottom, #ad5389, #3c1053);;
 	font-size: 12px;
 }
 .sub-bnr .breadcrumb>li+li:before {
@@ -4006,13 +4006,13 @@ header .navbar li.active a {
 	height: 60px;
 	width: 60px;
 	border: 2px solid #fff;
-	background: #00b1f1;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	line-height: 54px;
 	text-align: center;
 	margin-right: 10px;
 }
 .services article a {
-	background: #f7f7f7;
+	background: rgb(223, 223, 223);
 	padding: 60px 45px;
 	border-bottom: 2px solid #e6e6e6;
 	text-align: center;
@@ -4027,7 +4027,7 @@ header .navbar li.active a {
 }
 .services article i {
 	font-size: 60px;
-	color: #1193d4;
+	color: #C33764;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -4068,7 +4068,7 @@ header .navbar li.active a {
 	transition: 0.4s ease-in-out;
 }
 .services li:hover article a {
-	background: #1193d4;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	color: #fff;
 }
 .services li:hover article a i {
@@ -4083,7 +4083,7 @@ header .navbar li.active a {
 .colio-active-item {
 }
 .services li.colio-active-item article a {
-	background: #1193d4;
+	background: #ad5389;
 	color: #fff;
 }
 .services li.colio-active-item article a i {
@@ -4101,7 +4101,7 @@ header .navbar li.active a {
 	bottom: -5px;
 	font-family: 'FontAwesome';
 	font-size: 50px;
-	color: #1193d4;
+	color: #ad5389;
 	left: 0px;
 	right: 0px;
 	width: 100%;
@@ -4116,7 +4116,7 @@ header .navbar li.active a {
 	color: #fff;
 	font-size: 30px;
 	line-height: 80px;
-	background: #1193d4;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 }
 .services-in li {
 	text-align: center;
@@ -4129,7 +4129,7 @@ header .navbar li.active a {
 	margin: 20px 0;
 }
 .services-in a.btn {
-	color: #fff;
+	color: rgb(233, 233, 233);
 	font-style: normal;
 	margin-top: 30px;
 }
@@ -4155,16 +4155,16 @@ header .navbar li.active a {
 	border-radius: 0px;
 	font-size: 12px;
 	text-transform: uppercase;
-	color: #333333;
+	color: #000000;
 	display: inline-block;
 	width: 100%;
 }
 .inside-colio .nav-stacked a:hover {
-	background: #1193d4;
+	background: #350286;
 	color: #fff;
 }
 .inside-colio .nav-stacked>li.active {
-	background: #1193d4;
+	background: #350286;
 }
 /* Colio - Basic Styles
 ================================================== */
@@ -4198,7 +4198,7 @@ header .navbar li.active a {
 }
 .colio-close, .colio-prev, .colio-next {
 	outline: none;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgb(118, 29, 126);
 }
 .colio-no-prev, .colio-no-next {
 	cursor: default;
@@ -4459,7 +4459,7 @@ header .navbar li.active a {
 .who-we h6 {
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
-	color: #666666;
+	color: #ffffff;
 	margin-top: 30px;
 	text-transform: none;
 	font-weight: 600;
@@ -4474,7 +4474,7 @@ header .navbar li.active a {
 }
 .who-we li i {
 	font-size: 26px;
-	color: #1193d4;
+	color: #ffffff;
 	margin-bottom: 10px;
 }
 /*=======================================================
@@ -4531,20 +4531,20 @@ header .navbar li.active a {
 	display: inline-block;
 	height: 60px;
 	width: 60px;
-	background: #fff;
-	color: #d0d0d0;
+	background: #ffffff;
+	color: #000000;
 	margin-left: 10px;
 	line-height: 62px;
 	text-align: center;
-	border-bottom: 1px solid #136690;
+	border-bottom: 1px solid #3c1053;
 	font-size: 16px;
 }
 .portfolio .top-detail a:hover {
-	background: #1193d4;
+	background: #000000;
 	color: #fff;
 }
 .portfolio .over-detail {
-	background: rgba(17,147,212,0.5);
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -4564,7 +4564,7 @@ header .navbar li.active a {
 	bottom: 30px;
 }
 .portfolio .cbp-item article:hover .over-detail {
-	opacity: 1;
+	opacity: 0.45;
 }
 /*=======================================================
       PORTFOLIO COL
@@ -4579,23 +4579,23 @@ header .navbar li.active a {
 #ajax-work-filter .cbp-filter-item {
 	font-size: 12px;
 	font-weight: bold;
-	color: #1193d4;
+	color: #3c1053;
 	display: inline-block;
 	text-transform: uppercase;
 	padding: 5px 10px;
-	border: 2px solid #1193d4;
+	border: 2px solid #3c1053;
 	border-radius: 4px;
 }
 #ajax-work-filter .cbp-filter-item:hover {
-	background: #1193d4;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	color: #fff;
 }
 #ajax-work-filter .cbp-filter-item-active {
-	background: #1193d4;
+	background: linear-gradient(to right, #ad5389, #3c1053);
 	color: #fff;
 }
 .cbp-l-filters-buttonCenter .cbp-filter-counter {
-	background: #1193d4;
+	background: #ad5389;
 }
 .cbp-popup-singlePage .cbp-popup-close {
 	background: none;
@@ -4804,15 +4804,15 @@ header .navbar li.active a {
       Features
 ========================================================*/
 .features {
-	box-shadow: inset 0 0px 4px rgba(0,0,0,0.2);
+	box-shadow: inset 0 0px 4px rgba(0,0,0,0.3);
 }
 .list-style-featured .icon {
 	height: 70px;
 	width: 70px;
 	line-height: 70px;
 	text-align: center;
-	color: #fff;
-	background: #1193d4;
+	color: #ffffff;
+	background: linear-gradient(to left, #ad5389, #3c1053);
 	border-radius: 50%;
 	font-size: 20px;
 	margin-right: 10px;
@@ -4838,7 +4838,11 @@ header .navbar li.active a {
 ========================================================*/
 .testi-bg {
 	background: url(http://new.uouapps.com/iod-html/html/images/bg/bg-testi.jpg) center center fixed no-repeat;
-	background-size: cover;
+  background-size: cover;
+}
+.custom-color{
+color:green !important;
+background-size: cover;
 }
 .custom-color{
 color:green !important;
@@ -5111,7 +5115,7 @@ color:green !important;
 	padding: 0px;
 	display: inline-block;
 	text-align: center;
-	color: #333333;
+	color: #a0a0a0;
 	font-size: 10px;
 	border-radius: 4px;
 	background: #e6e6e6;
@@ -5119,7 +5123,7 @@ color:green !important;
 }
 .job-content .share-info .social li a:hover {
 	color: #fff;
-	background: #1193d4;
+	background: linear-gradient(to right #ad5389, #1D2671);
 }
 .job-skills .progress {
 	height: 14px;
@@ -5129,7 +5133,7 @@ color:green !important;
 	margin-bottom: 10px;
 }
 .job-skills .progress-bar {
-	background: #31a8ec;
+	background: linear-gradient(to right #ad5389, #1D2671);
 	box-shadow: none;
 }
 .job-skills li h6 i {
@@ -5139,7 +5143,7 @@ color:green !important;
 	height: 22px;
 	width: 22px;
 	border-radius: 4px;
-	background: #31a8ec;
+	background: linear-gradient(to right #ad5389, #1D2671);
 	color: #fff;
 	text-align: center;
 	line-height: 22px;
@@ -5174,14 +5178,14 @@ color:green !important;
 	width: 38px;
 	color: #fff;
 	font-size: 18px;
-	background: #1193d4;
+	background: #ad5389;
 	float: left;
 	text-align: center;
 	font-weight: bold;
 	line-height: 33px;
 }
 .job-tittle .date span {
-	background: #333333;
+	background: #ad5389;
 	display: inline-block;
 	width: 100%;
 	line-height: 18px;
@@ -5245,15 +5249,15 @@ color:green !important;
 	padding: 0px;
 	display: inline-block;
 	text-align: center;
-	color: #333333;
+	color: #8b8b8b;
 	font-size: 10px;
 	border-radius: 4px;
-	background: #e6e6e6;
+	background: linear-gradient(to right #ad5389, #1D2671);
 	margin-left: 5px;
 }
 .social li a:hover {
 	color: #fff;
-	background: #1193d4;
+	background: linear-gradient(to right #ad5389, #1D2671);
 }
 /*=======================================================
       TEAM
@@ -5263,7 +5267,7 @@ color:green !important;
 	margin-bottom: 50px;
 }
 .team article span {
-	color: #adadad;
+	color: #1D2671;
 	font-size: 14px;
 	margin-bottom: 15px;
 	display: inline-block;
@@ -5290,7 +5294,7 @@ color:green !important;
 	width: auto;
 }
 .team article .social li a:hover {
-	color: #1193d4;
+	color: #ad5389;
 }
 .team-list article {
 	text-align: left;
@@ -5316,11 +5320,11 @@ color:green !important;
 	border-radius: 4px;
 }
 .team-filter li a:hover {
-	background: #1193d4;
+	background: linear-gradient(to right #ad5389, #1D2671);
 	color: #fff;
 }
 .team-filter li a.active {
-	background: #1193d4;
+	background: linear-gradient(to right #ad5389, #1D2671);
 	color: #fff;
 }
 .add img{
@@ -5330,7 +5334,7 @@ color:green !important;
       COUNTER
 ========================================================*/
 .counter {
-	background: #1193d4;
+	background:  #1D2671;
 	text-align: center;
 }
 .counter .number {
@@ -5340,7 +5344,7 @@ color:green !important;
 }
 .counter li {
 	position: relative;
-	border-right: 1px solid rgba(255,255,255,0.3);
+	border-right: 1px solid #FFF;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -5349,7 +5353,7 @@ color:green !important;
 	position: absolute;
 	height: 11px;
 	width: 11px;
-	background: #59b4e1;
+	background: #ffffff;
 	right: -6px;
 	top: 50%;
 	margin-top: -5px;
@@ -5378,7 +5382,7 @@ color:green !important;
 }
 .clients li a {
 	border-left: none;
-	background: #fff;
+	background: rgb(63, 73, 167);
 	display: inline-block;
 	width: 100%;
 	padding: 30px 0;
@@ -5535,7 +5539,7 @@ footer .photo-steam li a:hover {
 .tags li a {
 	display: inline-block;
 	padding: 5px 8px;
-	background: #1193d4;
+	background:#C33764;
 	border: none !important;
 	border-radius: 4px;
 	color: #fff;
@@ -5545,7 +5549,7 @@ footer .photo-steam li a:hover {
 .sm-tags {
 	display: inline-block;
 	padding: 5px 8px;
-	background: #1193d4;
+	background: #1D2671;
 	border: none !important;
 	border-radius: 4px;
 	color: #fff;
@@ -5560,7 +5564,7 @@ a.sm-tags:hover {
 	background: #cccccc;
 }
 .tags li a:hover {
-	background: #1a1a1a;
+	background: #1D2671;
 }
 .rights {
 	padding: 15px 0;

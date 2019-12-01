@@ -2,14 +2,14 @@ import React, { Component } from "react";
 class Counter extends Component {
   render() {
     return (
-      <section class="counter padding-top-50 padding-bottom-50">
-        <div class="container">
-          <ul class="row">
-            <li class="col-md-3">
-              <div class="count">
-                <span class="number">
+      <section className="counter padding-top-50 padding-bottom-50">
+        <div className="container">
+          <ul className="row">
+            <li className="col-md-3">
+              <div className="count">
+                <span className="number">
                   <span
-                    class="timer"
+                    className="timer"
                     data-speed="2000"
                     data-refresh-interval="10"
                     data-to="16812"
@@ -20,11 +20,11 @@ class Counter extends Component {
               </div>
             </li>
 
-            <li class="col-md-3">
-              <div class="count">
-                <span class="number">
+            <li className="col-md-3">
+              <div className="count">
+                <span className="number">
                   <span
-                    class="timer"
+                    className="timer"
                     data-speed="2000"
                     data-refresh-interval="10"
                     data-to="482"
@@ -35,11 +35,11 @@ class Counter extends Component {
               </div>
             </li>
 
-            <li class="col-md-3">
-              <div class="count">
-                <span class="number">
+            <li className="col-md-3">
+              <div className="count">
+                <span className="number">
                   <span
-                    class="timer"
+                    className="timer"
                     data-speed="2000"
                     data-refresh-interval="10"
                     data-to="92"
@@ -50,11 +50,11 @@ class Counter extends Component {
               </div>
             </li>
 
-            <li class="col-md-3">
-              <div class="count">
-                <span class="number">
+            <li className="col-md-3">
+              <div className="count">
+                <span className="number">
                   <span
-                    class="timer"
+                    className="timer"
                     data-speed="2000"
                     data-refresh-interval="10"
                     data-to="2980"

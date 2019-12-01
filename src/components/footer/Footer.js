@@ -4,39 +4,39 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3">
               <img src={Logo} alt="logo" />
-              <div class="about-foot">
+              <div className="about-foot">
                 <ul>
                   <li>
                     <p>
-                      <i class="fa fa-map-marker"></i> 795 Folsom Ave, Suite
+                      <i className="fa fa-map-marker"></i> 795 Folsom Ave, Suite
                       600, San Francisco, CA 94107
                     </p>
                   </li>
                   <li>
                     <p>
-                      <i class="fa fa-phone"></i> (123) 456-7890
+                      <i className="fa fa-phone"></i> (123) 456-7890
                     </p>
                   </li>
                   <li>
                     <p>
-                      <i class="fa fa-envelope"></i> example@example.com
+                      <i className="fa fa-envelope"></i> example@example.com
                     </p>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div className="col-md-3">
               <h6>Twitter Feed</h6>
-              <ul class="tweet">
+              <ul className="tweet">
                 <li>
                   <p>
                     A Guide to Better Brainstorming
-                    <a href="#." class="primary-color">
+                    <a href="#." className="primary-color">
                       http://enva.to/nfNrz
                     </a>
                     by @jeff_haden
@@ -47,7 +47,7 @@ class Footer extends Component {
                   <p>
                     Are you a student? You only have 48 hours left to grab a
                     full year on Tuts+ for just $45! Don't miss out.
-                    <a href="#." class="primary-color">
+                    <a href="#." className="primary-color">
                       abc
                     </a>
                   </p>
@@ -56,9 +56,9 @@ class Footer extends Component {
               </ul>
             </div>
 
-            <div class="col-md-3">
+            <div className="col-md-3">
               <h6>Photostream</h6>
-              <ul class="photo-steam">
+              <ul className="photo-steam">
                 <li>
                   <a href="#.">
                     <img
@@ -110,9 +110,9 @@ class Footer extends Component {
               </ul>
             </div>
 
-            <div class="col-md-3">
+            <div className="col-md-3">
               <h6>Categories</h6>
-              <ul class="tags">
+              <ul className="tags">
                 <li>
                   <a href="#.">User Experience</a>
                 </li>

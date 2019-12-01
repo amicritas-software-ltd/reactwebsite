@@ -4,217 +4,69 @@ import Logo from "../../logo.png";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar">
-        <div className="sticky">
-          <div className="container">
-            <div className="logo">
-              <a href="#.">
-                <img className="img-responsive" src={Logo} alt="logo" />
-                <img className="img-responsive" src={Logo} alt="" />
-              </a>
-            </div>
+      <nav className="navbar navbar-default" id="mNavbar">
+        <div className="container">
+          <div className="navbar-header">
+            <button
+              type="button"
+              className="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <a className="navbar-brand" href="#.">
+              <img alt="Brand" src={Logo} />
+            </a>
+          </div>
 
-            <ul className="nav ownmenu">
-              <li className="active">
-                <a href="#.">Home </a>
-                <ul className="dropdown">
+          <div
+            className="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul className="nav navbar-nav navbar-right">
+              <li>
+                <a href="#.">Home</a>
+              </li>
+              <li className="dropdown">
+                <a
+                  href="#."
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  About <span className="caret"></span>
+                </a>
+                <ul className="dropdown-menu">
                   <li>
-                    <a href="#.">Home Boxed</a>
+                    <a href="#.">Company</a>
+                  </li>
+                  <li>
+                    <a href="#.">Team</a>
+                  </li>
+                  <li>
+                    <a href="#.">Presentation</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#.">Pages </a>
-                <ul className="dropdown">
-                  <li>
-                    <a href="#.">About</a>
-                  </li>
-                  <li>
-                    <a href="#.">Shop</a>
-                    <ul className="dropdown">
-                      <li>
-                        <a href="#.">Shop</a>
-                      </li>
-                      <li>
-                        <a href="#.">Shop Single</a>
-                      </li>
-                      <li>
-                        <a href="#.">Checkout Step1</a>
-                      </li>
-                      <li>
-                        <a href="#.">Checkout Step2</a>
-                      </li>
-                      <li>
-                        <a href="#.">Checkout Step3</a>
-                      </li>
-                      <li>
-                        <a href="#.">Checkout Address(step2)</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#.">Services </a>
-                    <ul className="dropdown">
-                      <li>
-                        <a href="#.">Services Version 1</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Version 2</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Version 3</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Version 4</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Version 5</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Shrefries</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Annual Reports</a>
-                      </li>
-                      <li>
-                        <a href="#.">Services Media Relations</a>
-                      </li>
-                      <li>
-                        <a href="#.">Annual Left Report Single</a>
-                      </li>
-                      <li>
-                        <a href="#.">Annual Right Report Single</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#.">Team </a>
-                    <ul className="dropdown">
-                      <li>
-                        <a href="#.">Team 2 Columns</a>
-                      </li>
-                      <li>
-                        <a href="#.">Team 3 Columns</a>
-                      </li>
-                      <li>
-                        <a href="#.">Team 4 Columns</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#.">Jobs </a>
-                    <ul className="dropdown">
-                      <li>
-                        <a href="#.">Jobs Right Sidebar </a>
-                      </li>
-                      <li>
-                        <a href="#.">Jobs Left Sidebar </a>
-                      </li>
-                      <li>
-                        <a href="#.">Jobs (single) Left Sidebar </a>
-                      </li>
-                      <li>
-                        <a href="#.">Jobs (single) Right Sidebar </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#.">Revenues </a>
-                  </li>
-                  <li>
-                    <a href="#.">Company Presentation</a>
-                  </li>
-                  <li>
-                    <a href="#.">Blog </a>
-                  </li>
-                  <li>
-                    <a href="#.">Blog Single </a>
-                  </li>
-                  <li>
-                    <a href="#.">Contact</a>
-                  </li>
-                </ul>
+                <a href="#.">Services</a>
               </li>
               <li>
-                <a href="#.">About </a>
+                <a href="#.">Portfolio</a>
               </li>
               <li>
-                <a href="#.">Services </a>
-                <ul className="dropdown">
-                  <li>
-                    <a href="#.">Services Version 1</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Version 2</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Version 3</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Version 4</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Version 5</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Shrefries</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Shrefries</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Annual Reports</a>
-                  </li>
-                  <li>
-                    <a href="#.">Services Media Relations</a>
-                  </li>
-                  <li>
-                    <a href="#.">Annual Left Report Single</a>
-                  </li>
-                  <li>
-                    <a href="#.">Annual Right Report Single</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#.">Team </a>
-                <ul className="dropdown">
-                  <li>
-                    <a href="#.">Team 2 Columns</a>
-                  </li>
-                  <li>
-                    <a href="#.">Team 3 Columns</a>
-                  </li>
-                  <li>
-                    <a href="#.">Team 4 Columns</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#.">Jobs </a>
-                <ul className="dropdown">
-                  <li>
-                    <a href="#.">Jobs Right Sidebar </a>
-                  </li>
-                  <li>
-                    <a href="#.">Jobs Left Sidebar </a>
-                  </li>
-                  <li>
-                    <a href="#.">Jobs (single) Left Sidebar </a>
-                  </li>
-                  <li>
-                    <a href="#.">Jobs (single) Right Sidebar </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#.">Blog </a>
+                <a href="#.">Blog</a>
               </li>
               <li>
                 <a href="#.">Contact</a>
               </li>
             </ul>
-
             <div className="search-icon">
               <a href="#.">
                 <i className="fa fa-search"></i>

@@ -3581,7 +3581,7 @@ a:hover, a:focus {
 section {
 	position: relative;
 	overflow: hidden;
-	background: rgb(202, 202, 202);
+	background: rgb(247, 244, 244);
 	margin-top:-5px;
 }
 /*=======================================================
@@ -3616,7 +3616,6 @@ section {
 .top-info {
 	display: inline-block;
 	width: 100%;
-	float: left;
   background: #ad5389; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -3639,7 +3638,6 @@ section {
 	display: inline-block;
 	border-right: 1px solid #ececec;
 	padding: 1px 20px;
-	float: left;
 }
 .top-info .personal-info li:nth-child(1) {
 	padding-left: 0px;
@@ -3657,7 +3655,6 @@ section {
 	padding: 0px;
 }
 .top-info .social li {
-	float: left;
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
@@ -3745,7 +3742,6 @@ header .ownmenu {
 	z-index: 99;
 }
 header .navbar {
-	float: left;
 	width: 100%;
 	margin: 0px;
 	padding: 20px 0;
@@ -3756,7 +3752,6 @@ header .navbar {
 }
 header .navbar li {
 	display: inline-block;
-	float: left;
 	margin: 0 5px;
 	position: relative;
 	z-index: 999;
@@ -3778,23 +3773,23 @@ header .navbar li a {
 }
 header .navbar li a:hover {
   background: linear-gradient(to right, #ad5389, #3c1053);
-	color: #fff;
+	color: #fff !important;
 }
 header .navbar li.active a {
 	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	color: #fff;
 }
-.ownmenu ul.dropdown {
+.navbar ul.dropdown {
 	background: #333333;
 	padding: 0px;
 	top: 40px;
 	border-radius: 4px;
 }
-.ownmenu ul.dropdown li ul.dropdown li a {
+.navbar ul.dropdown li ul.dropdown li a {
 	letter-spacing: 0px;
 	font-size: 13px;
 }
-.ownmenu ul.dropdown:before {
+.navbar ul.dropdown:before {
 	position: absolute;
 	content: "\f0d8";
 	top: -25px;
@@ -3807,10 +3802,10 @@ header .navbar li.active a {
 	right: 0px;
 	z-index: -1;
 }
-.ownmenu ul.dropdown li {
+.navbar ul.dropdown li {
 	margin: 0px;
 }
-.ownmenu ul.dropdown li a {
+.navbar ul.dropdown li a {
 	padding: 0px 20px;
 	font-size: 14px;
 	font-weight: normal;
@@ -3821,9 +3816,7 @@ header .navbar li.active a {
 	text-transform: none;
 	border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.ownmenu ul.dropdown li a:hover{
-	
-}
+
 .sticky-wrapper {
 	height: auto !important;
 }
@@ -4012,7 +4005,7 @@ header .navbar li.active a {
 	margin-right: 10px;
 }
 .services article a {
-	background: rgb(223, 223, 223);
+	background: rgb(255, 255, 255);
 	padding: 60px 45px;
 	border-bottom: 2px solid #e6e6e6;
 	text-align: center;
@@ -4080,8 +4073,7 @@ header .navbar li.active a {
 .services li:hover article a h5 {
 	color: #fff;
 }
-.colio-active-item {
-}
+
 .services li.colio-active-item article a {
 	background: #ad5389;
 	color: #fff;
@@ -4184,8 +4176,7 @@ header .navbar li.active a {
 	background: url(../images/bg/ser-bg.jpg) center center repeat-y;
 	background-size: cover;
 }
-#demo_1{
-}
+
 .colio-container {
 	height: 100%;
 	-webkit-box-sizing: border-box;
@@ -4226,8 +4217,7 @@ header .navbar li.active a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.colio-container {
-}
+
 .inside-colio {
 	padding: 60px 0px;
 }
@@ -4241,16 +4231,14 @@ header .navbar li.active a {
 /*=======================================================
       checkout
 ========================================================*/
-.check-out {
-}
+
 .check-out h5 {
 	text-transform: none;
 	font-weight: normal;
 	margin-top: 30px;
 	font-size: 20px;
 }
-.check-out form {
-}
+
 .check-out li {
 	margin-bottom: 10px;
 }
@@ -4366,14 +4354,12 @@ header .navbar li.active a {
 .coupen img {
 	margin-right: 10px;
 }
-.oder-received {
-}
+
 .oder-received h6 {
 	text-transform: none;
 	color: #666666;
 }
-.oder-received .order-date {
-}
+
 .oder-received .order-date {
 	background: #f7f7f7;
 	padding: 30px;
@@ -4392,8 +4378,7 @@ header .navbar li.active a {
 /*=======================================================
       Presentation
 ========================================================*/
-.presentation {
-}
+
 .presentation .heading h4 {
 	margin: 20px 0;
 }
@@ -4450,8 +4435,7 @@ header .navbar li.active a {
 /*=======================================================
       WHO WE ARE
 ========================================================*/
-.who-we {
-}
+
 .who-we h3 {
 	margin-top: 0px;
 	font-size: 24px;
@@ -4480,8 +4464,7 @@ header .navbar li.active a {
 /*=======================================================
       PORTFOLIO
 ========================================================*/
-.portfolio {
-}
+
 .portfolio .col-3 .cbp-item {
 	width: 33.3333%;
 	float: left;
@@ -4653,10 +4636,7 @@ header .navbar li.active a {
 	background: #fff;
 	box-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
-.cbp-popup-singlePage .cbp-popup-next {
-}
-.cbp-popup-singlePage .cbp-popup-prev {
-}
+
 .cbp-popup-singlePage-counter {
 	left: 0px;
 	right: 0px;
@@ -4669,8 +4649,7 @@ header .navbar li.active a {
 /*=======================================================
       PLAN
 ========================================================*/
-.plan {
-}
+
 .plan .price {
 	font-size: 45px;
 	padding: 0px;
@@ -4719,8 +4698,7 @@ header .navbar li.active a {
 /*=======================================================
       BLOG
 ========================================================*/
-.blog {
-}
+
 .blog-slide{
 	margin:0px;
 }
@@ -4754,7 +4732,6 @@ header .navbar li.active a {
 	width: 100%;
 	line-height: 18px;
 	font-size: 12px;
-	float: left;
 	text-transform: uppercase;
 }
 .post-detail {
@@ -4978,8 +4955,7 @@ color:green !important;
 	height: 245px;
 	width: 100%;
 }
-.job-info {
-}
+
 .job-info li {
 	display: inline-block;
 	width: 100%;
@@ -5051,13 +5027,11 @@ color:green !important;
 .short-by label {
 	width: 100%;
 }
-.filter-sidebar {
-}
+
 .filter-sidebar li {
 	position: relative;
 }
-.filter-sidebar li {
-}
+
 .cate.result li {
 	line-height: 32px;
 }
@@ -5067,8 +5041,7 @@ color:green !important;
 .cate.result li a {
 	color: #666666;
 }
-.job {
-}
+
 .job-content h5 {
 	text-transform: none;
 	font-size: 20px;
@@ -5078,8 +5051,7 @@ color:green !important;
 .job-content p {
 	margin-bottom: 0px;
 }
-.job-skills ul {
-}
+
 .job-skills li {
 	margin-top: 10px;
 }
@@ -5094,7 +5066,6 @@ color:green !important;
 .job-content .share-info h6 {
 	font-size: 18px;
 	display: inline-block;
-	float: left;
 	margin-top: 10px
 }
 .job-content .share-info .social {
@@ -5103,7 +5074,7 @@ color:green !important;
 	margin-left: 10px;
 }
 .job-content .share-info .social li {
-	float: left;
+
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
@@ -5169,8 +5140,7 @@ color:green !important;
 	font-size: 12px;
 	text-transform: uppercase;
 }
-.job-tittle .date {
-}
+
 .job-tittle .date {
 	position: relative;
 	top: 0px;
@@ -5190,15 +5160,13 @@ color:green !important;
 	width: 100%;
 	line-height: 18px;
 	font-size: 8px;
-	float: left;
 	color: #fff;
 	text-transform: uppercase;
 }
 /*=======================================================
       PRICING RANGE
 ========================================================*/
-.cost-price-content {
-}
+
 .cost-price-content h5 {
 	margin-bottom: 30px;
 }
@@ -5235,8 +5203,7 @@ color:green !important;
 /*=======================================================
       social
 ========================================================*/
-.social {
-}
+
 .social li {
 	display: inline-block;
 	margin: 0px;
@@ -5532,7 +5499,6 @@ footer .photo-steam li a:hover {
 }
 .tags li {
 	display: inline-block;
-	float: left;
 	margin-right: 5px;
 	margin-bottom: 7px;
 }
@@ -5620,8 +5586,7 @@ a.sm-tags:hover {
 .chart-page .payment_steps .current h6 {
 	color: #af5875;
 }
-.chart-page .shopping-cart {
-}
+
 .shopping-cart .item-img {
 	width: 70px;
 	display: inline-block;
@@ -5661,7 +5626,6 @@ a.sm-tags:hover {
 	border: 1px solid #ebebeb;
 	width: 60px;
 	height: 44px;
-	float: left;
 	line-height: 44px;
 	display: inline-block;
 	text-align: center;
@@ -5678,8 +5642,7 @@ a.sm-tags:hover {
 	position: absolute;
 	left: 0px;
 }
-.shopping-cart .cart-details {
-}
+
 .shopping-cart .cart-details {
 	padding-left: 50px;
 	padding-top: 15px;
@@ -5707,7 +5670,6 @@ a.sm-tags:hover {
 	display: inline-block;
 	width: 100%;
 	background: #f7f7f7;
-	float: left;
 	padding-top: 15px;
 	padding-bottom: 10px;
 	padding-left: 50px;
@@ -5760,7 +5722,6 @@ a.sm-tags:hover {
 	border: 1px solid #ebebeb;
 	width: 60px;
 	height: 44px;
-	float: left;
 	width: 100%;
 	font-size: 11px;
 	padding: 0 10px;
@@ -5774,8 +5735,7 @@ a.sm-tags:hover {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-.shopping-cart .cart-ship-info button {
-}
+
 .shopping-cart .bootstrap-select .btn {
 	margin-top: 10px;
 	background: #fff !important;
@@ -5807,8 +5767,7 @@ a.sm-tags:hover {
 /*=======================================================
 			PRODUCTS
 ========================================================*/
-.products {
-}
+
 .products article {
 	background: #f7f7f7;
 	border-bottom: 2px solid #e6e6e6;
@@ -5914,8 +5873,7 @@ a.sm-tags:hover {
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
 	background:none;
 }
-.my-tabs.style-1 {
-}
+
 .nav-pills>li>a {
 	border-radius: 0px;
 	background: #1193d4;
@@ -5951,8 +5909,7 @@ a.sm-tags:hover {
 	float:left;
 	width:20%;
 }
-.instagram-feed li a{
-}
+
 .instagram-feed li a:hover{
 	opacity:0.8;
 }
@@ -5963,8 +5920,7 @@ a.sm-tags:hover {
 /*=======================================================
 			List Style
 ========================================================*/
-.list-w-icon {
-}
+
 .list-w-icon li .icon {
 	height: 69px;
 	width: 69px;
@@ -6070,8 +6026,7 @@ a.sm-tags:hover {
 /*=======================================================
 			CONTACT FORM
 ========================================================*/
-.revenues {
-}
+
 .side-heading {
 	font-size: 20px;
 	font-weight: normal;
@@ -6080,8 +6035,7 @@ a.sm-tags:hover {
 	padding-bottom: 10px;
 	letter-spacing: 0px;
 }
-.side-bar-revenues {
-}
+
 .head a {
 	color: #666666;
 	display: inline-block;
@@ -6331,8 +6285,7 @@ a.sm-tags:hover {
 /*=======================================================
 			ACCORDION
 ========================================================*/
-#accordion {
-}
+
 #accordion .panel-default > .panel-heading .panel-title a:before {
 	content: "\f077";
 	font-family: FontAwesome;
@@ -6443,8 +6396,7 @@ a.sm-tags:hover {
 	color: #1193d4;
 }
 /* TIMELINE */
-.history {
-}
+
 .history .heading > h4 {
 	margin-top: 0;
 }
@@ -6507,8 +6459,7 @@ a.sm-tags:hover {
 	border-radius: 50%;
 	margin-top: 4px;
 }
-.history #timeline #dates li a {
-}
+
 .history #timeline #dates li a:after {
 	position: absolute;
 	top: -34px;
@@ -6601,8 +6552,7 @@ a.sm-tags:hover {
 /*=======================================================
 			PAPULAR POST
 ========================================================*/
-.papu-post {
-}
+
 .papu-post .media-left {
 	margin-right: 0px;
 	padding-right: 20px;
@@ -6615,7 +6565,6 @@ a.sm-tags:hover {
 	padding: 3px 0;
 	text-align: center;
 	margin-top: 0px;
-	float: left;
 }
 .papu-post .media-left img {
 	width: 100%;
@@ -7093,4 +7042,20 @@ a.sm-tags:hover {
 }
 .dark-version .portfolio .portfolio-in .port-item{
 	background:rgba(255,255,255,0.05);
+}
+
+.navbar {
+	margin:0 !important;
+	padding: 5px !important;
+}
+.navbar-brand{
+  padding:5px 0 0 0 !important;
+}
+.navbar-nav{
+  padding-top:5px !important;
+}
+body{
+  position: relative;
+  display: block;
+  overflow-y: scroll;
 }

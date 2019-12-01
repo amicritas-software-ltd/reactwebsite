@@ -2,9 +2,9 @@ import React, { Component } from "react";
 class Client extends Component {
   render() {
     return (
-      <section class="clients padding-top-100 padding-bottom-100">
-        <div class="container">
-          <div class="heading text-center">
+      <section className="clients padding-top-100 padding-bottom-100">
+        <div className="container">
+          <div className="heading text-center">
             <h4>Our Amazing Clients</h4>
             <span>
               We trust in longlasting partnerships with the most important
@@ -12,13 +12,13 @@ class Client extends Component {
             </span>{" "}
           </div>
 
-          <div class="single-slide">
-            <div class="item">
-              <ul class="row col-5">
+          <div className="single-slide">
+            <div className="item">
+              <ul className="row col-5">
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-1.jpg"
                       alt="client 1"
                     />
@@ -27,7 +27,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-2.jpg"
                       alt="client 2"
                     />
@@ -36,7 +36,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-3.jpg"
                       alt="client 3"
                     />
@@ -45,7 +45,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-4.jpg"
                       alt="client 4"
                     />
@@ -54,7 +54,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-5.jpg"
                       alt="client 5"
                     />
@@ -62,12 +62,12 @@ class Client extends Component {
                 </li>
               </ul>
             </div>
-            <div class="item">
-              <ul class="row col-5">
+            <div className="item">
+              <ul className="row col-5">
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-4.jpg"
                       alt="client 6"
                     />
@@ -76,7 +76,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-5.jpg"
                       alt="client 7"
                     />
@@ -85,7 +85,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-3.jpg"
                       alt="client 8"
                     />
@@ -94,7 +94,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-1.jpg"
                       alt="client 9"
                     />
@@ -103,7 +103,7 @@ class Client extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      class="img-responsive"
+                      className="img-responsive"
                       src="http://new.uouapps.com/iod-html/html/images/client-img-2.jpg"
                       alt="client 10"
                     />

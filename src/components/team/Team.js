@@ -2,18 +2,18 @@ import React, { Component } from "react";
 class Team extends Component {
   render() {
     return (
-      <section class="light-gray-bg padding-top-70 padding-bottom-70">
-        <div class="container">
-          <div class="heading text-center">
+      <section className="light-gray-bg padding-top-70 padding-bottom-70">
+        <div className="container">
+          <div className="heading text-center">
             <h4>Our Team</h4>
           </div>
 
-          <div class="team">
-            <div class="row">
-              <div class="col-md-3">
+          <div className="team">
+            <div className="row">
+              <div className="col-md-3">
                 <article>
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-1.jpg"
                     alt="member1"
                   />
@@ -23,35 +23,35 @@ class Team extends Component {
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
                   </p>
-                  <ul class="social">
+                  <ul className="social">
                     <li>
                       <a href="#.">
-                        <i class="fa fa-facebook"></i>
+                        <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-google"></i>
+                        <i className="fa fa-google"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
                 </article>
               </div>
 
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <article>
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-2.jpg"
                     alt="member2"
                   />
@@ -61,35 +61,35 @@ class Team extends Component {
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
                   </p>
-                  <ul class="social">
+                  <ul className="social">
                     <li>
                       <a href="#.">
-                        <i class="fa fa-facebook"></i>
+                        <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-google"></i>
+                        <i className="fa fa-google"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
                 </article>
               </div>
 
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <article>
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-3.jpg"
                     alt="member3"
                   />
@@ -99,35 +99,35 @@ class Team extends Component {
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
                   </p>
-                  <ul class="social">
+                  <ul className="social">
                     <li>
                       <a href="#.">
-                        <i class="fa fa-facebook"></i>
+                        <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-google"></i>
+                        <i className="fa fa-google"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
                 </article>
               </div>
 
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <article>
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-4.jpg"
                     alt="member4"
                   />
@@ -137,25 +137,25 @@ class Team extends Component {
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
                   </p>
-                  <ul class="social">
+                  <ul className="social">
                     <li>
                       <a href="#.">
-                        <i class="fa fa-facebook"></i>
+                        <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-google"></i>
+                        <i className="fa fa-google"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#.">
-                        <i class="fa fa-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>

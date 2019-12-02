@@ -67,21 +67,6 @@ class Navbar extends Component {
                 <a href="#.">Contact</a>
               </li>
             </ul>
-            <div className="search-icon">
-              <a href="#.">
-                <i className="fa fa-search"></i>
-              </a>
-              <form>
-                <input
-                  className="form-control"
-                  type="search"
-                  placeholder="Type Here"
-                />
-                <button type="submit">
-                  <i className="fa fa-search"></i>
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </nav>

@@ -3940,7 +3940,6 @@ header .navbar li.active a {
       SUB BANNER
 ========================================================*/
 .sub-bnr {
-	background: url(../images/bg/sub-bnr-bg.jpg) no-repeat;
 	background-size: cover;
 	min-height: 380px;
 	text-align: center;
@@ -3979,7 +3978,7 @@ header .navbar li.active a {
 	color: #fff;
 }
 .sub-bnr.bnr-2 {
-	background: url(../images/bg/sub-bnr-bg-1.jpg) no-repeat;
+  background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 155px;
 	text-align: center;
@@ -7058,4 +7057,7 @@ body{
   position: relative;
   display: block;
   overflow-y: scroll;
+}
+.sub-bnr{
+  background-position: 0% -64px !important;
 }

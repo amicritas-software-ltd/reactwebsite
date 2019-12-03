@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Logo from "../../logo.png";
+import {Link, NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -18,9 +19,9 @@ class Navbar extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#.">
+            <NavLink activeClassName="navbar-brand" to="/">
               <img alt="Brand" src={Logo} />
-            </a>
+            </NavLink>
           </div>
 
           <div
@@ -29,7 +30,7 @@ class Navbar extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#.">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="dropdown">
                 <a
@@ -44,27 +45,27 @@ class Navbar extends Component {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a href="#.">Company</a>
+                    <Link to="/about">Company</Link>
                   </li>
                   <li>
-                    <a href="#.">Team</a>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li>
-                    <a href="#.">Presentation</a>
+                    <Link to="/presentation">Presentation</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#.">Services</a>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <a href="#.">Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <a href="#.">Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
-                <a href="#.">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>

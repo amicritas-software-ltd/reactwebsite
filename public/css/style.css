@@ -4457,7 +4457,7 @@ header .navbar li.active a {
 }
 .who-we li i {
 	font-size: 26px;
-	color: #ffffff;
+	color: #ad5389;
 	margin-bottom: 10px;
 }
 /*=======================================================
@@ -7060,4 +7060,7 @@ body{
 }
 .sub-bnr{
   background-position: 0% -64px !important;
+}
+.who-we h6{
+  color:#666666 !important;
 }

@@ -3605,10 +3605,10 @@ section {
 	letter-spacing: 1.5px;
 }
 .heading.white h4 {
-	color: #fff;
+  color: #1D2671;
 }
 .heading.white span {
-	color: #fff;
+	color: #1D2671;
 }
 /*=======================================================
       TOP BAR
@@ -3747,7 +3747,7 @@ header .navbar {
 	padding: 20px 0;
 	border: none;
 	display: inline-block;
-	background: rgb(255, 255, 255);
+	background:  rgb(238, 238, 238);
 	box-shadow:0 1px 3px rgba(0,0,0,0.2);
 }
 header .navbar li {
@@ -4877,20 +4877,20 @@ color:green !important;
 	font-size: 14px;
 }
 .pagination>li>a:hover {
-	background: #1193d4;
+	background: linear-gradient(to left, #ad5389, #3c1053);
 	color: #fff;
-	border-color: #1193d4;
+	border-color: #c4c0c0;
 }
 .pagination>li>a.current {
-	background: #1193d4;
+	background: linear-gradient(to right, #ad5389, #3c1053);
 	color: #fff;
-	border-color: #1193d4;
+	border-color: #c4c0c0;
 }
 /*=======================================================
       JOB SECRION
 ========================================================*/
 .job-sider-bar {
-	background: #f7f7f7;
+	background: #ffffff;
 	padding: 35px;
 	border-bottom: 2px solid #e6e6e6;
 }
@@ -5280,18 +5280,19 @@ color:green !important;
 	display: inline-block;
 	padding: 5px 10px;
 	text-transform: uppercase;
-	font-size: 12px;
-	color: #cccccc;
+  font-size: 12px;
+  background:  #552e75;
+	color: rgb(159, 165, 216);
 	text-transform: uppercase;
 	border-radius: 4px;
 }
 .team-filter li a:hover {
 	background: linear-gradient(to right #ad5389, #1D2671);
-	color: #fff;
+	color: #ffffff;
 }
 .team-filter li a.active {
 	background: linear-gradient(to right #ad5389, #1D2671);
-	color: #fff;
+	color: rgb(159, 165, 216);
 }
 .add img{
 	width:auto;
@@ -6166,7 +6167,9 @@ a.sm-tags:hover {
 		CONTACT FORM
 ========================================================*/
 .contact-info {
-	background: url(../images/bg/contact-info-bg.jpg) no-repeat;
+  background: url(http://funstuffdaily.com/wp-content/uploads/sites/2/2019/04/Southgate-Office.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.95;
 }
 .contact-info li h5 {
 	font-size: 18px;
@@ -6243,7 +6246,7 @@ a.sm-tags:hover {
 	font-family: 'Open Sans', sans-serif;
 }
 .contact-form label input {
-	border: 1px solid #e6e6e6;
+	border: 1px solid #000000;
 	height: 40px;
 	padding: 0 20px;
 	border-radius: 0px;
@@ -6264,7 +6267,7 @@ a.sm-tags:hover {
 	color: #999999;
 	position: relative;
 	padding: 10px 20px;
-	border: 1px solid #ececec;
+	border: 1px solid #000000;
 	height: 200px;
 	border-radius: 4px;
 	background: #fff;
@@ -6276,10 +6279,10 @@ a.sm-tags:hover {
 	transition: all 0.4s ease-in-out;
 }
 .contact-form input:focus {
-	border: 1px solid #1193d4 !important;
+	border: 1px solid #b8c4df !important;
 }
 .contact-form textarea:focus {
-	border: 1px solid #1193d4 !important;
+	border: 1px solid #b8bbe6 !important;
 }
 /*=======================================================
 			ACCORDION

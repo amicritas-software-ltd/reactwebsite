@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Team from "./pages/Team";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/team" component={Team} />
+        <Route path="/services" component={Services} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
       </div>

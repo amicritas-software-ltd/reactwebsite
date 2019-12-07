@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Pagetop extends Component {
   render() {
@@ -16,7 +17,7 @@ class Pagetop extends Component {
 
             <ol className="breadcrumb">
               <li>
-                <a href="#.">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="active">{this.props.Name}</li>
             </ol>

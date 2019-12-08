@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Portfolio extends Component {
+class Portfolioh extends Component {
   render() {
     return (
       <section className="portfolio light-gray-bg padding-top-70 padding-bottom-20">
@@ -254,4 +254,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Portfolioh;

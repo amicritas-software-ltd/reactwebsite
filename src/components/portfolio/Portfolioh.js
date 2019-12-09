@@ -25,11 +25,11 @@ class Portfolioh extends Component {
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".dial" className="cbp-filter-item">
-                Dialogue
+                Ecommerce 
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".direc" className="cbp-filter-item">
-                Direction
+                Android App
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".growth" className="cbp-filter-item">

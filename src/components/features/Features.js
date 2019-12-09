@@ -17,8 +17,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Gorgeous Design</h6>
                         <p>
-                          Donec venenatis, turpis vel hendrerit interdum, dui
-                          ligula ultricies purus, ultricies id orci.
+                          Providing best quality design for your desired projects
                         </p>
                       </div>
                       <div className="media-right">
@@ -33,8 +32,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Responsive Design</h6>
                         <p>
-                          Donec venenatis, turpis vel hendrerit interdum, dui
-                          ligula ultricies purus, ultricies id orci.
+                          Providing responsive designs
                         </p>
                       </div>
                       <div className="media-right">
@@ -49,8 +47,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Cross Browser Support</h6>
                         <p>
-                          Donec venenatis, turpis vel hendrerit interdum, dui
-                          ligula ultricies purus, ultricies id orci.
+                          Providing websites that support all browsers.
                         </p>
                       </div>
                       <div className="media-right">
@@ -83,8 +80,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Easy to Customize</h6>
                         <p>
-                          Donec venenatis, turpis vel hendrerit interdum, dui
-                          ligula ultricies purus, ultricies id orci.
+                          Easy customizable projects.
                         </p>
                       </div>
                     </div>
@@ -99,8 +95,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Exlusive Features</h6>
                         <p>
-                          Donec venenatis, turpis vel hendrerit interdum, dui
-                          ligula ultricies purus, ultricies id orci.
+                          Responsive ecommerce websites, Flutter apps for Android/iOS,etc
                         </p>
                       </div>
                     </div>
@@ -115,8 +110,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Innovative Ideas</h6>
                         <p>
-                          Donec venenatis, turpis vel hendrerit interdum, dui
-                          ligula ultricies purus, ultricies id orci.
+                          Vai mathay dhuktesena ektu bujhaia den content gula
                         </p>
                       </div>
                     </div>

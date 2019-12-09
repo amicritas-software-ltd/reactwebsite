@@ -16,7 +16,7 @@ class Testimonial extends Component {
               UOU Apps, is by far one of the worlds best known brands.
             </p>
             <h6>
-              Jane Doe / <span className="primary-color">Company Inc.</span>
+              Sabbir Ahmed / <span className="primary-color">Amicritas.LTD</span>
             </h6>
           </div>
         </div>

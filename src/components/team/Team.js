@@ -17,15 +17,14 @@ class Team extends Component {
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-1.jpg"
                     alt="member1"
                   />
-                  <h5>Jeff Walsh</h5>
-                  <span>CEO</span>
+                  <h5>Md.Sabbir Ahmed</h5>
+                  <span>Managing Director</span>
                   <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
+                    Leader
                   </p>
                   <ul className="social">
                     <li>
-                      <a href="#.">
+                      <a href="https://www.facebook.com/Fun2uze">
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>
@@ -52,11 +51,11 @@ class Team extends Component {
                 <article>
                   <img
                     className="img-responsive"
-                    src="http://new.uouapps.com/iod-html/html/images/team-img-1-2.jpg"
+                    src="http://solidman.org/wp-content/uploads/2015/11/ken_curry_bw_270px.jpg"
                     alt="member2"
                   />
-                  <h5>Janet Adams</h5>
-                  <span>Human Resources</span>
+                  <h5>Sourav Hossain</h5>
+                  <span>Admin</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
@@ -93,7 +92,7 @@ class Team extends Component {
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-3.jpg"
                     alt="member3"
                   />
-                  <h5>Colin Weiland</h5>
+                  <h5>Sourav Istiak</h5>
                   <span>New Business Manager</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
@@ -131,8 +130,8 @@ class Team extends Component {
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-4.jpg"
                     alt="member4"
                   />
-                  <h5>Wendy Willings</h5>
-                  <span>Public Relations</span>
+                  <h5>Priyanka Sharma</h5>
+                  <span>Marketting Executive</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.

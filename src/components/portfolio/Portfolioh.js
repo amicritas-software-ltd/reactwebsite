@@ -66,7 +66,7 @@ class Portfolioh extends Component {
                     className="cbp-lightbox"
                     data-title=""
                   >
-                    <i className="icon-magnifier"></i>
+                    <i className="fa fa-search"></i>
                   </a>
                 </div>
 
@@ -95,7 +95,7 @@ class Portfolioh extends Component {
                     className="cbp-lightbox"
                     data-title=""
                   >
-                    <i className="icon-magnifier"></i>
+                    <i className="fa fa-search"></i>
                   </a>
                 </div>
 
@@ -124,7 +124,7 @@ class Portfolioh extends Component {
                     className="cbp-lightbox"
                     data-title=""
                   >
-                    <i className="icon-magnifier"></i>
+                    <i className="fa fa-search"></i>
                   </a>
                 </div>
 
@@ -154,7 +154,7 @@ class Portfolioh extends Component {
                     className="cbp-lightbox"
                     data-title=""
                   >
-                    <i className="icon-magnifier"></i>
+                    <i className="fa fa-search"></i>
                   </a>
                 </div>
 
@@ -184,7 +184,7 @@ class Portfolioh extends Component {
                     className="cbp-lightbox"
                     data-title=""
                   >
-                    <i className="icon-magnifier"></i>
+                    <i className="fa fa-search"></i>
                   </a>
                 </div>
 
@@ -214,7 +214,7 @@ class Portfolioh extends Component {
                     className="cbp-lightbox"
                     data-title=""
                   >
-                    <i className="icon-magnifier"></i>
+                    <i className="fa fa-search"></i>
                   </a>
                 </div>
 

@@ -15,14 +15,14 @@ class Features extends Component {
                   <li>
                     <div className="media">
                       <div className="media-body">
-                        <h6>Gorgeous Design</h6>
+                        <h6>IT & Software Solutions</h6>
                         <p>
-                          Providing best quality design for your desired projects
+                          Networking issues, Software reverse engineering and Software Optimization.
                         </p>
                       </div>
                       <div className="media-right">
                         <div className="icon">
-                          <i className="fa fa-paint-brush"></i>
+                          <i className="fa fa-desktop"></i>
                         </div>
                       </div>
                     </div>
@@ -30,9 +30,9 @@ class Features extends Component {
                   <li>
                     <div className="media">
                       <div className="media-body">
-                        <h6>Responsive Design</h6>
+                        <h6>Responsive Designs</h6>
                         <p>
-                          Providing responsive designs
+                          Providing responsive designs for websites and mobile apps.
                         </p>
                       </div>
                       <div className="media-right">
@@ -45,7 +45,7 @@ class Features extends Component {
                   <li>
                     <div className="media">
                       <div className="media-body">
-                        <h6>Cross Browser Support</h6>
+                        <h6>IT Courses</h6>
                         <p>
                           Providing websites that support all browsers.
                         </p>
@@ -80,7 +80,7 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Easy to Customize</h6>
                         <p>
-                          Easy customizable projects.
+                          Easy customizable projects for websites and mobile apps.
                         </p>
                       </div>
                     </div>
@@ -89,13 +89,13 @@ class Features extends Component {
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
-                          <i className="fa fa-book"></i>
+                          <i className="fa fa-star-o"></i>
                         </div>
                       </div>
                       <div className="media-body">
                         <h6>Exlusive Features</h6>
                         <p>
-                          Responsive ecommerce websites, Flutter apps for Android/iOS,etc
+                          Robotics Solutions, Advanced Electronics Solutions and Technical Supports.
                         </p>
                       </div>
                     </div>
@@ -110,7 +110,8 @@ class Features extends Component {
                       <div className="media-body">
                         <h6>Innovative Ideas</h6>
                         <p>
-                          Vai mathay dhuktesena ektu bujhaia den content gula
+                          Pharmacy Management System
+                          More than 200+ websites and App Demos.
                         </p>
                       </div>
                     </div>

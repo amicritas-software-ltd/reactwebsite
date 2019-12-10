@@ -13,57 +13,57 @@ class Service extends Component {
       <div className="container">
         <ul className="row list">
           <li className="col-md-3" data-content="#colio_c1">
-            <article className="thumb"> <a className="button colio-link" href="#."> <i className="fa fa-bar-chart"></i>
-              <h5>Analytics</h5>
+            <article className="thumb"> <a className="button colio-link" href="#."> <i className="fa fa-cogs"></i>
+              <h5>Web Development</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c2">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-archive"></i>
-              <h5>Storage</h5>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-android"></i>
+              <h5>Mobile App</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c3">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-shield"></i>
-              <h5>Security</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-desktop"></i>
+              <h5>Software Solutions</h5>
+              <p> Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c4">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-rocket"></i>
-              <h5>Worth</h5>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-chrome"></i>
+              <h5>Hosting & Domain</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c5">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-comments-o"></i>
-              <h5>Dialogue</h5>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-wrench"></i>
+              <h5>Advanced Electronics</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c6">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bullhorn"></i>
-              <h5>Direction</h5>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bar-chart"></i>
+              <h5>Digital Marketing</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c7">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bullseye"></i>
-              <h5>Growth</h5>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-laptop"></i>
+              <h5>IT Supports</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c8">
-            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-globe"></i>
-              <h5>Global</h5>
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-rocket"></i>
+              <h5>Robotics Solutions</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
@@ -77,7 +77,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Analytics</h4>
+              <h4>Web Development</h4>
             </div>
             
             <div className="services-in">
@@ -106,7 +106,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Storage</h4>
+              <h4>Mobile App</h4>
             </div>
             
             <div className="services-in">
@@ -135,7 +135,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Security</h4>
+              <h4>Software Solutions</h4>
             </div>
             
             <div className="services-in">
@@ -164,7 +164,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Dialogue</h4>
+              <h4>Hosting & Domain</h4>
             </div>
             
             <div className="services-in">
@@ -193,7 +193,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Direction</h4>
+              <h4>Advanced Electronics</h4>
             </div>
             
             <div className="services-in">
@@ -222,7 +222,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Dialogue</h4>
+              <h4>Digital Marketing</h4>
             </div>
             
             <div className="services-in">
@@ -251,7 +251,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Growth</h4>
+              <h4>IT Supports</h4>
             </div>
             
             <div className="services-in">
@@ -280,7 +280,7 @@ class Service extends Component {
           <div className="inside-colio no-padding-bottom"> 
             
             <div className="heading text-left margin-bottom-20">
-              <h4>Global</h4>
+              <h4>Robotics Solutions</h4>
             </div>
             
             <div className="services-in">

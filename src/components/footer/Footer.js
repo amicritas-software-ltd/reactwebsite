@@ -12,18 +12,17 @@ class Footer extends Component {
                 <ul>
                   <li>
                     <p>
-                      <i className="fa fa-map-marker"></i> 795 Folsom Ave, Suite
-                      600, San Francisco, CA 94107
+                      <i className="fa fa-map-marker"></i> House:1E,Road:04,Sector:11,Uttara
                     </p>
                   </li>
                   <li>
                     <p>
-                      <i className="fa fa-phone"></i> (123) 456-7890
+                      <i className="fa fa-phone"></i> +(880)164-305-9745
                     </p>
                   </li>
                   <li>
                     <p>
-                      <i className="fa fa-envelope"></i> example@example.com
+                      <i className="fa fa-envelope"></i>info@amicritas.com
                     </p>
                   </li>
                 </ul>

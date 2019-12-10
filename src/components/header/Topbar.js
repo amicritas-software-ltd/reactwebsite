@@ -9,7 +9,7 @@ class Topbar extends Component {
             <ul className="personal-info">
               <li>
                 <p>
-                  <i className="fa fa-phone"></i> +8801643059745
+                  <i className="fa fa-phone"></i> +(880)164-305-9745
                 </p>
               </li>
               <li>

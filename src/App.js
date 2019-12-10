@@ -12,7 +12,7 @@ import Jobs from "./pages/Jobs";
 
 function App() {
   return (
-    <Router>
+    <Router forceRefresh={true}>
       <div id="wrap">
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />

@@ -81,6 +81,7 @@ class Companyhistory extends Component {
                         <span className="date">{curStatus.data}</span>
                         <h5 className="title">{curStatus.title}</h5>
                         <p>{curStatus.content}</p>
+                        <p style={{ display: "none" }}>{prevIdx}</p>
                       </div>
                     </div>
                   </li>

@@ -23,7 +23,11 @@ class Topbar extends Component {
             <div className="right-sec">
               <ul className="social">
                 <li>
-                  <a target="_blank" rel="noopener noreferrer" href="http://facebook.com/Amicritas">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://facebook.com/Amicritas"
+                  >
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>

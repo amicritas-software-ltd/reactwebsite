@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
+
 class Service extends Component {
     render() { 
         return ( 
+          
             <div id="content"> 
   <section className="services padding-top-70 padding-bottom-70">
     <div className="container"> 
@@ -12,61 +15,69 @@ class Service extends Component {
     <div className="best-services"> 
       <div className="container">
         <ul className="row list">
+        <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
+
           <li className="col-md-3" data-content="#colio_c1">
             <article className="thumb"> <a className="button colio-link" href="#."> <i className="fa fa-cogs"></i>
               <h5>Web Development</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
-          
+          </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c2">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-android"></i>
               <h5>Mobile App</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
-          
+          </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c3">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-desktop"></i>
               <h5>Software Solutions</h5>
               <p> Proin nibh augue.</p>
               </a> </article>
-          </li>
-          
+          </li></AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c4">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-chrome"></i>
               <h5>Hosting & Domain</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
-          </li>
-          
+          </li></AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c5">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-wrench"></i>
               <h5>Advanced Electronics</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
-          
+          </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c6">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bar-chart"></i>
               <h5>Digital Marketing</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
-          
+          </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c7">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-laptop"></i>
               <h5>IT Supports</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
-          
+          </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <li className="col-md-3" data-content="#colio_c8">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-rocket"></i>
               <h5>Robotics Solutions</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
               </a> </article>
           </li>
+          </AnimatedOnScroll>
         </ul>
       </div>
     </div>
@@ -304,6 +315,8 @@ class Service extends Component {
     </div>
   </section>
 </div> 
+
+
          );
     }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 class Portfolioh extends Component {
   render() {
     return (
@@ -25,7 +26,7 @@ class Portfolioh extends Component {
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".dial" className="cbp-filter-item">
-                Ecommerce 
+                Ecommerce
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".direc" className="cbp-filter-item">
@@ -231,23 +232,9 @@ class Portfolioh extends Component {
           className="text-center margin-top-50 margin-bottom-50 animate fadeInUp"
           data-wow-delay="0.4s"
         >
-          <div id="ajax-loadMore">
-            <a
-              href="ajax-work/loadMore1.html"
-              className="cbp-l-loadMore-link btn btn-1"
-              rel="nofollow"
-            >
-              <span className="cbp-l-loadMore-defaultText">
-                View Full Portfolio <i className="fa fa-caret-right"></i>
-              </span>
-              <span className="cbp-l-loadMore-loadingText">
-                LOADING... <i className="fa fa-caret-down"></i>
-              </span>
-              <span className="cbp-l-loadMore-noMoreLoading">
-                NO MORE WORKS <i className="fa fa-caret-up"></i>
-              </span>
-            </a>
-          </div>
+          <Link to="/portfolio" class="btn margin-top-30">
+            View all <i class="fa fa-caret-right"></i>
+          </Link>
         </div>
       </section>
     );

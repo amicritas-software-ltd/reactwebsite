@@ -17,11 +17,9 @@ class Team extends Component {
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-1.jpg"
                     alt="member1"
                   />
-                  <h5>Md.Sabbir Ahmed</h5>
+                  <h5>Md. Sabbir Ahmed</h5>
                   <span>Managing Director</span>
-                  <p>
-                    Leader
-                  </p>
+                  <p>Leader</p>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/Fun2uze">
@@ -54,8 +52,8 @@ class Team extends Component {
                     src="http://solidman.org/wp-content/uploads/2015/11/ken_curry_bw_270px.jpg"
                     alt="member2"
                   />
-                  <h5>Sourav Hossain</h5>
-                  <span>Admin</span>
+                  <h5>M Sourav Hossain</h5>
+                  <span>Head of Administration</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
@@ -92,7 +90,7 @@ class Team extends Component {
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-3.jpg"
                     alt="member3"
                   />
-                  <h5>Sourav Istiak</h5>
+                  <h5>Istiak Ahmed</h5>
                   <span>New Business Manager</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula

@@ -22,27 +22,23 @@ class Portfolioh extends Component {
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".ana" className="cbp-filter-item">
-                Analytics
+                Websites
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".dial" className="cbp-filter-item">
-                Ecommerce
+                Mobile App
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".direc" className="cbp-filter-item">
-                Android App
+                Software
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".growth" className="cbp-filter-item">
-                Growth
+                IT Services
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".sec" className="cbp-filter-item">
                 Security
-                <div className="cbp-filter-counter"></div>
-              </div>
-              <div data-filter=".storage" className="cbp-filter-item">
-                Storage
                 <div className="cbp-filter-counter"></div>
               </div>
             </div>
@@ -50,7 +46,7 @@ class Portfolioh extends Component {
         </div>
 
         <div className="ajax-work col-3">
-          <div className="cbp-item ana dial growth">
+          <div className="cbp-item ana dial security">
             <article className="item">
               <img
                 className="img-responsive"
@@ -79,7 +75,7 @@ class Portfolioh extends Component {
             </article>
           </div>
 
-          <div className="cbp-item ana dial sec storage">
+          <div className="cbp-item ana dial sec mobile app">
             <article className="item">
               <img
                 className="img-responsive"
@@ -107,7 +103,7 @@ class Portfolioh extends Component {
               </div>
             </article>
           </div>
-          <div className="cbp-item ana sec storage">
+          <div className="cbp-item ana sec websites websites">
             <article className="item">
               <img
                 className="img-responsive"
@@ -137,7 +133,7 @@ class Portfolioh extends Component {
             </article>
           </div>
 
-          <div className="cbp-item sec storage">
+          <div className="cbp-item ana sec websites websites">
             <article className="item">
               <img
                 className="img-responsive"
@@ -233,7 +229,7 @@ class Portfolioh extends Component {
           data-wow-delay="0.4s"
         >
           <Link to="/portfolio" class="btn margin-top-30">
-            View all <i class="fa fa-caret-right"></i>
+            View Full Portfolio<i class="fa fa-caret-right"></i>
           </Link>
         </div>
       </section>

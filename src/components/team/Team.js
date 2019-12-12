@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 class Team extends Component {
   render() {
     return (
       <section className="light-gray-bg padding-top-70 padding-bottom-70">
+        <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
         <div className="container">
           <div className="heading text-center">
             <h4>Our Team</h4>
@@ -91,7 +93,7 @@ class Team extends Component {
                     alt="member3"
                   />
                   <h5>Istiak Ahmed</h5>
-                  <span>New Business Manager</span>
+                  <span>Mobile App Developer</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
@@ -161,6 +163,7 @@ class Team extends Component {
             </div>
           </div>
         </div>
+        </AnimatedOnScroll>
       </section>
     );
   }

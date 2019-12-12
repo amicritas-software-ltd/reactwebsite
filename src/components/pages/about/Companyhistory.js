@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 import HorizontalTimeline from "react-horizontal-timeline";
 
 const EXAMPLE = [
@@ -52,6 +53,7 @@ class Companyhistory extends Component {
     const curStatus = EXAMPLE[curIdx];
     return (
       <section className="light-gray-bg padding-top-70 padding-bottom-70">
+        <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
         <div className="container">
           <div className="heading text-left">
             <h4>company history</h4>
@@ -90,6 +92,7 @@ class Companyhistory extends Component {
             </div>
           </div>
         </div>
+        </AnimatedOnScroll>
       </section>
     );
   }

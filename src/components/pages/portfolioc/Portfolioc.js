@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 class Portfolioc extends Component {
   render() {
     return (
@@ -7,7 +8,7 @@ class Portfolioc extends Component {
           <div className="heading text-center">
             <h4>Our Recent Work</h4>
           </div>
-
+          <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <div className="text-center">
             <div
               id="ajax-work-filter"
@@ -42,8 +43,9 @@ class Portfolioc extends Component {
               </div>
             </div>
           </div>
+          </AnimatedOnScroll>
         </div>
-
+        <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
         <div className="ajax-work col-3">
           <div className="cbp-item ana dial security">
             <article className="item">
@@ -571,7 +573,7 @@ class Portfolioc extends Component {
             </article>
           </div>
         </div>
-
+        </AnimatedOnScroll>
         <div
           className="text-center margin-top-50 margin-bottom-50 animate fadeInUp"
           data-wow-delay="0.4s"

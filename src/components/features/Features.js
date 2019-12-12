@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
+
 class Features extends Component {
   render() {
     return (
@@ -7,7 +9,7 @@ class Features extends Component {
           <div className="heading text-center">
             <h4>outstanding features</h4>
           </div>
-
+          <AnimatedOnScroll animationIn="fadeInUp" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <div className="list-style-featured">
             <div className="row no-margin">
               <div className="col-md-4 no-padding">
@@ -117,9 +119,10 @@ class Features extends Component {
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div>              
             </div>
           </div>
+          </AnimatedOnScroll>
         </div>
       </section>
     );

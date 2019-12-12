@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 class Slider extends Component {
   render() {
     return (
+      <AnimatedOnScroll animationIn="bounce" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
       <section className="home-slide">
         <ul className="slides">
           <li className="slide-img-1" data-stellar-background-ratio="0.6">
@@ -25,6 +27,7 @@ class Slider extends Component {
           </li>
         </ul>
       </section>
+      </AnimatedOnScroll>
     );
   }
 }

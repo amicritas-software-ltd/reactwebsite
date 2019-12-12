@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 
 class Content extends Component{
     render(){
@@ -6,6 +7,7 @@ class Content extends Component{
             <div id="content">
     <section className="padding-bottom-70">
       <div className="contact-info padding-top-100 padding-bottom-100" data-stellar-background-ratio="0.5">
+      <AnimatedOnScroll animationIn="bounceInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
         <div className="container">
           <div className="heading white text-center">
             <h4>Our Office</h4>
@@ -20,7 +22,9 @@ class Content extends Component{
             </li>
           </ul>
         </div>
+        </AnimatedOnScroll>
       </div>
+      <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
       <div className="container">
         <div className="heading text-left margin-top-70 margin-bottom-30">
           <h4>Send us your queries</h4>
@@ -60,6 +64,7 @@ class Content extends Component{
           </div>
             </div>
                </div>
+               </AnimatedOnScroll>
                  </section>
                 </div>
         );

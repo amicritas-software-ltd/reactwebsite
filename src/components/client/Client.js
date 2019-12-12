@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 class Client extends Component {
   render() {
     return (
       <section className="clients padding-top-100 padding-bottom-100">
+        <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
         <div className="container">
           <div className="heading text-center">
             <h4>Our Amazing Clients</h4>
@@ -113,6 +115,7 @@ class Client extends Component {
             </div>
           </div>
         </div>
+        </AnimatedOnScroll>
       </section>
     );
   }

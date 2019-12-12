@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 
 class Pagetop extends Component {
   render() {
     return (
+      <AnimatedOnScroll animationIn="pulse" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
       <section
         className="sub-bnr bnr-2"
         data-stellar-background-ratio="0.5"
@@ -24,6 +26,7 @@ class Pagetop extends Component {
           </div>
         </div>
       </section>
+      </AnimatedOnScroll>
     );
   }
 }

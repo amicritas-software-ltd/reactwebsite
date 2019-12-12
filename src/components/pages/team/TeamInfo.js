@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 class TeamInfo extends Component {
   render() {
     return (
       <div id="content">
         <section className="team team-list team-wrap padding-top-70 padding-bottom-70">
           <div className="container">
+          <AnimatedOnScroll animationIn="fadeInLeft" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
             <ul className="filter team-filter">
               <li className="tab-title filter-item">
                 <a className="active" href="#." data-filter="*">
@@ -13,24 +14,68 @@ class TeamInfo extends Component {
                 </a>
               </li>
               <li className="filter-item">
-                <a href="#." data-filter=".gd" className="">
-                  graphic designers
+                <a href="#." data-filter=".boss" className="">
+                  Boss
                 </a>
               </li>
               <li className="filter-item">
-                <a href="#." data-filter=".html" className="">
-                  html coders
+                <a href="#." data-filter=".web" className="">
+                  Web Developer
+                </a>
+              </li>
+              <li className="filter-item">
+                <a href="#." data-filter=".android" className="">
+                  Mobile App Developer
                 </a>
               </li>
               <li className="filter-item">
                 <a href="#." data-filter=".market" className="">
-                  marketing
+                  Marketing
                 </a>
               </li>
             </ul>
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
             <div className="">
               <ul className="row items styleul1">
-                <li className="col-md-3 item market styleli1">
+              <li className="col-md-3 item  boss styleli5">
+                  <article className="text-left">
+                    <img
+                      className="img-responsive"
+                      src="http://new.uouapps.com/iod-html/html/images/team-img-2-5.jpg"
+                      alt="team"
+                    />
+                    <h5>Jeff Walsh</h5>
+                    <span>CEO</span>
+                    <p>
+                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
+                      ultricies purus, sed posuere libero dui id orci.
+                    </p>
+                    <ul className="social">
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-google"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-linkedin"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </article>
+                </li>
+                <li className="col-md-3 item boss styleli1">
                   <article className="text-left">
                   <img
                     className="img-responsive"
@@ -67,7 +112,7 @@ class TeamInfo extends Component {
                 </article>
                 </li>
 
-                <li className="col-md-3 item gd market styleli2">
+                <li className="col-md-3 item gd boss styleli2">
                   <article className="text-left">
                   <img
                     className="img-responsive"
@@ -105,7 +150,7 @@ class TeamInfo extends Component {
                 </article>
                 </li>
 
-                <li className="col-md-3 item gd styleli3">
+                <li className="col-md-3 item gd android styleli3">
                   <article className="text-left">
                   <img
                     className="img-responsive"
@@ -113,7 +158,7 @@ class TeamInfo extends Component {
                     alt="member3"
                   />
                   <h5>Sourav Istiak</h5>
-                  <span>New Business Manager</span>
+                  <span>Mobile App Developer</span>
                   <p>
                     Donec venenatis, turpis vel hendrerit interdum, dui ligula
                     ultricies purus, sed posuere libero dui id orci.
@@ -143,7 +188,7 @@ class TeamInfo extends Component {
                 </article>
                 </li>
 
-                <li className="col-md-3 item gd html styleli4">
+                <li className="col-md-3 item gd market styleli4">
                   <article className="text-left">
                   <img
                     className="img-responsive"
@@ -180,84 +225,7 @@ class TeamInfo extends Component {
                   </ul>
                 </article>
                 </li>
-
-                <li className="col-md-3 item  market styleli5">
-                  <article className="text-left">
-                    <img
-                      className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/team-img-2-5.jpg"
-                      alt="team"
-                    />
-                    <h5>Jeff Walsh</h5>
-                    <span>CEO</span>
-                    <p>
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                      ultricies purus, sed posuere libero dui id orci.
-                    </p>
-                    <ul className="social">
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-google"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </article>
-                </li>
-
-                <li className="col-md-3 item gd market styleli6">
-                  <article className="text-left">
-                    <img
-                      className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/team-img-2-6.jpg"
-                      alt="team"
-                    />
-                    <h5>Janet Adams</h5>
-                    <span>Human Resources</span>
-                    <p>
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                      ultricies purus, sed posuere libero dui id orci.
-                    </p>
-                    <ul className="social">
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-google"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#.">
-                          <i className="fa fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </article>
-                </li>
-
-                <li className="col-md-3 item gd styleli7">
+                <li className="col-md-3 item gd market styleli7">
                   <article className="text-left">
                     <img
                       className="img-responsive"
@@ -294,8 +262,46 @@ class TeamInfo extends Component {
                     </ul>
                   </article>
                 </li>
+                <li className="col-md-3 item  web styleli5">
+                  <article className="text-left">
+                    <img
+                      className="img-responsive"
+                      src="http://new.uouapps.com/iod-html/html/images/team-img-2-1.jpg"
+                      alt="team"
+                    />
+                    <h5>Anonymous</h5>
+                    <span>Web Developer</span>
+                    <p>
+                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
+                      ultricies purus, sed posuere libero dui id orci.
+                    </p>
+                    <ul className="social">
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-google"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-linkedin"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </article>
+                </li>
               </ul>
             </div>
+            </AnimatedOnScroll>
           </div>
         </section>
       </div>

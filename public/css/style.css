@@ -3637,7 +3637,7 @@ section {
 .top-info .personal-info li {
 	display: inline-block;
 	border-right: 1px solid #ececec;
-	padding: 1px 20px;
+	padding: 1px 10px;
 }
 .top-info .personal-info li:nth-child(1) {
 	padding-left: 0px;
@@ -3747,7 +3747,7 @@ header .navbar {
 	padding: 20px 0;
 	border: none;
 	display: inline-block;
-	background:  rgb(238, 238, 238);
+	background: #fff;
 	box-shadow:0 1px 3px rgba(0,0,0,0.2);
 }
 header .navbar li {
@@ -3903,19 +3903,21 @@ header .navbar li.active a {
 	margin-bottom: 30px;
 	font-size: 60px;
 	font-family: 'montserratlight';
-	letter-spacing:5px;
+  letter-spacing:5px;
+  color: #3c1053;
 }
 .home-slide li h5 {
 	font-size: 18px;
 	font-family: 'montserratlight';
-	letter-spacing:9px;
+  letter-spacing:9px;
+  color: #3c1053;
 }
 .home-slide .slide-img-1 {
-	background: url(http://new.uouapps.com/iod-html/html/images/slides/slide-1.jpg) no-repeat;
+	background: url(https://image.freepik.com/free-photo/modern-interior-meeting-room-with-evening-sunset-light-from-clean-glass-windows_44651-365.jpg) no-repeat;
 	background-size: cover;
 }
 .home-slide .slide-img-2 {
-	background: url(http://new.uouapps.com/iod-html/html/images/slides/slide-2.jpg) center center no-repeat;
+	background: url(https://image.freepik.com/free-photo/asian-businesswoman-having-annual-meeting-office_8087-2859.jpg) center center no-repeat;
 	background-size: cover;
 }
 .home-slide .flex-control-nav {
@@ -5306,7 +5308,7 @@ color:green !important;
 }
 .counter .number {
 	font-size: 60px;
-	color: #fff;
+	color: #fff ;
 	font-weight: bold;
 }
 .counter li {
@@ -5332,7 +5334,8 @@ color:green !important;
 	display:none;
 }
 .counter h5 {
-	font-size: 18px;
+  font-size: 18px;
+  color: #fff;
 }
 /*=======================================================
       CLIENTS

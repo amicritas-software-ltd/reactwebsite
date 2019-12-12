@@ -9,14 +9,22 @@ class Topbar extends Component {
             <ul className="personal-info">
               <li>
                 <p>
-                  <i className="fa fa-phone"></i> +(880)164-305-9745
+                  <i className="fa fa-phone"></i> +8801643059745
                 </p>
               </li>
               <li>
-                <p>House:1E,Road:04,Sector:11,Uttara </p>
+                <p>
+                  <i
+                    className="fa fa-mobile-phone"
+                    style={{ fontSize: 20 }}
+                  ></i>
+                  +8801315559139
+                </p>
               </li>
               <li>
-                <p>info@amicritas.com </p>
+                <p>
+                  <i className="fa fa-envelope"></i>info@amicritas.com
+                </p>
               </li>
             </ul>
 

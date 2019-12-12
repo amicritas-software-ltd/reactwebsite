@@ -12,7 +12,7 @@ import Jobs from "./pages/Jobs";
 class App extends Component {
   render() {
     return (
-      <Router history={false} forceRefresh={true}>
+      <Router forceRefresh={true}>
         <div id="wrap">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />

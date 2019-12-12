@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Logo from "../../logo.png";
-import {Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
@@ -32,29 +32,17 @@ class Navbar extends Component {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="dropdown">
-                <a
-                  href="#."
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  About <span className="caret"></span>
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/about">Company</Link>
-                  </li>
-                  <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/presentation">Presentation</Link>
-                  </li>
-                </ul>
+
+              <li>
+                <Link to="/about">About Us</Link>
               </li>
+              <li>
+                <Link to="/team">Our Team</Link>
+              </li>
+              <li>
+                <Link to="/presentation">Presentation</Link>
+              </li>
+
               <li>
                 <Link to="/services">Services</Link>
               </li>

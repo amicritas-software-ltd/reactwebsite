@@ -37,15 +37,16 @@ class Navbar extends Component {
                 <Link to="/about">About Us</Link>
               </li>
               <li>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
                 <Link to="/team">Our Team</Link>
               </li>
               <li>
                 <Link to="/presentation">Presentation</Link>
               </li>
 
-              <li>
-                <Link to="/services">Services</Link>
-              </li>
+              
               <li>
                 <Link to="/portfolio">Portfolio</Link>
               </li>

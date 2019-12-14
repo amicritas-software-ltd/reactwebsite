@@ -40,14 +40,16 @@ class Topbar extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/amicritas" target="_blank"
-                    rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/amicritas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#." target="_blank"
-                    rel="noopener noreferrer">
+                  <a href="#." target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>

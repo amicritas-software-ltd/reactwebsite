@@ -20,7 +20,7 @@ class Counter extends Component {
                       className="timer"
                       data-speed="5000"
                       data-refresh-interval="5"
-                      data-to="16812"
+                      data-to="482"
                       data-from="0"
                     ></span>
                   </span>
@@ -39,7 +39,7 @@ class Counter extends Component {
                       data-from="0"
                     ></span>
                   </span>
-                  <h5>Millions $ Equity</h5>
+                  <h5>Hours of Working</h5>
                 </div>
               </li>
 
@@ -50,11 +50,11 @@ class Counter extends Component {
                       className="timer"
                       data-speed="5000"
                       data-refresh-interval="5"
-                      data-to="92"
+                      data-to="42"
                       data-from="0"
                     ></span>
                   </span>
-                  <h5>Partners in Holding</h5>
+                  <h5>Total Projects</h5>
                 </div>
               </li>
 
@@ -65,7 +65,7 @@ class Counter extends Component {
                       className="timer"
                       data-speed="5000"
                       data-refresh-interval="5"
-                      data-to="2980"
+                      data-to="3"
                       data-from="0"
                     ></span>
                   </span>

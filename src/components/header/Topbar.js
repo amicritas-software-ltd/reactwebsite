@@ -46,13 +46,13 @@ class Topbar extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="#." target="_blank"
+                  <a href="https://pinterest.com/amicritas" target="_blank"
                     rel="noopener noreferrer">
-                    <i className="fa fa-instagram"></i>
+                    <i className="fa fa-pinterest"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#.">
+                  <a href="https://www.linkedin.com/in/amicritas-software-ltd-005b1b199/" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>

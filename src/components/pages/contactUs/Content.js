@@ -56,7 +56,7 @@ class Content extends Component{
                     </label>
                   </li>
                   <li className="col-sm-12">
-                    <button type="submit" value="submit" className="btn btn-1" id="btn_submit" onClick="proceed();">Send Message <i className="fa fa-caret-right"></i></button>
+                    <button type="submit" value="submit" className="btn btn-1" id="btn_submit" onClick="amicritas.com/webmail">Send Message <i className="fa fa-caret-right"></i></button>
                   </li>
                 </ul>
               </form>

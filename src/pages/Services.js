@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/header/Header";
 import Pagetop from "../components/pages/Pagetop";
-import Service from "../components/service/Service";
+import Serviceall from "../components/pages/serviceall/Serviceall";
 import Footer from "../components/footer/Footer";
 import Bottomfooter from "../components/footer/Bottomfooter";
 class Services extends Component {
@@ -20,7 +20,7 @@ class Services extends Component {
           Background={this.state.background}
           Name={this.state.name}
         />
-        <Service></Service>
+        <Serviceall></Serviceall>
         <Footer></Footer>
         <Bottomfooter></Bottomfooter>
       </div>

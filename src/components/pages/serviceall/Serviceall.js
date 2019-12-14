@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
-import { Link } from "react-router-dom";
 
 class Service extends Component {
     render() { 
@@ -46,24 +45,40 @@ class Service extends Component {
           </li>
           </ul>
           </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="bounceInRight" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
+          <ul className="row list">
+          <li className="col-md-3" data-content="#colio_c5">
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-wrench"></i>
+              <h5>Advanced Electronics</h5>
+              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
+              </a> </article>
+          </li>
+          
+          <li className="col-md-3" data-content="#colio_c6">
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bar-chart"></i>
+              <h5>Digital Marketing</h5>
+              <p><b>We’re in a world that changes by the minute, where free media has greater reach and credibility than paid media and where prospects talk about you and your competition 24/7.It’s a world where not just desktops and mobile phones – but TV programs, billboards and newspapers are going digital.</b></p>
+              </a> </article>
+          </li>
+          
+          <li className="col-md-3" data-content="#colio_c7">
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-laptop"></i>
+              <h5>IT Supports</h5>
+              <p><b>Design and pursuit right IT strategy that drives unceasing growth</b></p>
+              </a> </article>
+          </li>
+          
+          <li className="col-md-3" data-content="#colio_c8">
+            <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-rocket"></i>
+              <h5>Robotics Solutions</h5>
+              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
+              </a> </article>
+          </li>
+          
+        </ul>
+        </AnimatedOnScroll>
       </div>
     </div>
-    <AnimatedOnScroll
-          animationIn="jello"
-          animationOut=""
-          animationInDuration={1500}
-          animationOutDuration={5000}
-          isVisible={true}
-        >
-          <div
-            className="text-center margin-top-50 margin-bottom-50 animate fadeInUp"
-            data-wow-delay="0.4s"
-          >
-            <Link to="/services" className="btn margin-top-30">
-              View All Services<i className="fa fa-caret-right"></i>
-            </Link>
-          </div>
-        </AnimatedOnScroll>
     
     <div id="colio_c1" className="colio-content">
       <div className="main">
@@ -165,6 +180,124 @@ Our dev center is based in Bangladesh and our costs are typically less than 30% 
             
             <div className="heading text-left margin-bottom-20">
               <h4>Hosting & Domain</h4>
+            </div>
+            
+            <div className="services-in">
+              <ul className="row">
+                
+                <li className="col-sm-5">
+                  <article className="text-left">
+                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                      <br />
+                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      <br />
+                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
+                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                </li>
+                <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="colio_c5" className="colio-content">
+      <div className="main">
+        <div className="container">
+          <div className="inside-colio no-padding-bottom"> 
+            
+            <div className="heading text-left margin-bottom-20">
+              <h4>Advanced Electronics</h4>
+            </div>
+            
+            <div className="services-in">
+              <ul className="row">
+                
+                <li className="col-sm-5">
+                  <article className="text-left">
+                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                      <br />
+                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      <br />
+                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
+                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                </li>
+                <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="colio_c6" className="colio-content">
+      <div className="main">
+        <div className="container">
+          <div className="inside-colio no-padding-bottom"> 
+            
+            <div className="heading text-left margin-bottom-20">
+              <h4>Digital Marketing</h4>
+            </div>
+            
+            <div className="services-in">
+              <ul className="row">
+                
+                <li className="col-sm-5">
+                  <article className="text-left">
+                    <p><strong>We’re in a world that changes by the minute, where free media has greater reach and credibility than paid media and where prospects talk about you and your competition 24/7.It’s a world where not just desktops and mobile phones – but TV programs, billboards and newspapers are going digital.</strong><br />
+                      <br />
+                      A world where industrial era practices of command-and-control or even Kotler-type 4P approaches simply don’t cut it anymore. A world that demands a different kind of business and brand thinking.<br />
+                      <br />
+                      </p>
+                    </article>
+                </li>
+                <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="colio_c7" className="colio-content">
+      <div className="main">
+        <div className="container">
+          <div className="inside-colio no-padding-bottom"> 
+            
+            <div className="heading text-left margin-bottom-20">
+              <h4>IT Supports</h4>
+            </div>
+            
+            <div className="services-in">
+              <ul className="row">
+                
+                <li className="col-sm-5">
+                  <article className="text-left">
+                    <p><strong>Design and pursuit right IT strategy that drives unceasing growth</strong><br />
+                      <br />
+                      Internet of Things. Artificial Intelligence. Big Data. Cloud Computing.<br />
+                      <br />
+                      They have changed business landscape far more than any time ever. Survival in business world depends only on one thing. Quick adoption with the change. And for this technological era, implementing IT is the only choice that businesses have. Survival and unceasing growth in ever changing business dynamics derived from well designed and well executed IT strategy.
+
+We understand the huge array of challenges faced by businesses and is dedicated to offer comprehensive IT consultancy support that caters to the personalized needs of organizations. We are devoted in creating and adding value to businesses in order to grant them an edge over competitors. DataSoft meticulously analyzes the IT complications faced by its clients and advises them on tackling operations through effective and efficient methodologies. It helps organizations settle on the most appropriate degree of automation in order for them to benefit through cognition. We help organizations grow with its bottomless industry proficiency and essentially redesigns client experiences.</p>
+                    </article>
+                </li>
+                <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="colio_c8" className="colio-content">
+      <div className="main">
+        <div className="container">
+          <div className="inside-colio no-padding-bottom"> 
+            
+            <div className="heading text-left margin-bottom-20">
+              <h4>Robotics Solutions</h4>
             </div>
             
             <div className="services-in">

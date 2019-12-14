@@ -20,27 +20,27 @@ class Service extends Component {
           <li className="col-md-3" data-content="#colio_c1">
             <article className="thumb"> <a className="button colio-link" href="#."> <i className="fa fa-cogs"></i>
               <h5>Web Development</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
          
           <li className="col-md-3" data-content="#colio_c2">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-android"></i>
               <h5>Mobile App</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>The foundation of Android development is built on Java – both a blessing and a curse for companies looking to create an Android app.</b></p>
               </a> </article>
           </li>
          
           <li className="col-md-3" data-content="#colio_c3">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-desktop"></i>
               <h5>Software Solutions</h5>
-              <p> Proin nibh augue.</p>
+              <p><b>Our software teams help our customers to build  customized software - everything from web to desktop to enterprise to mobile and beyond.</b></p>
               </a> </article>
           </li>
           <li className="col-md-3" data-content="#colio_c4">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-chrome"></i>
               <h5>Hosting & Domain</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
           </ul>
@@ -50,28 +50,28 @@ class Service extends Component {
           <li className="col-md-3" data-content="#colio_c5">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-wrench"></i>
               <h5>Advanced Electronics</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c6">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bar-chart"></i>
               <h5>Digital Marketing</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>We’re in a world that changes by the minute, where free media has greater reach and credibility than paid media and where prospects talk about you and your competition 24/7.It’s a world where not just desktops and mobile phones – but TV programs, billboards and newspapers are going digital.</b></p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c7">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-laptop"></i>
               <h5>IT Supports</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>Design and pursuit right IT strategy that drives unceasing growth</b></p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c8">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-rocket"></i>
               <h5>Robotics Solutions</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</p>
+              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
           
@@ -123,12 +123,12 @@ class Service extends Component {
                 
                 <li className="col-sm-5">
                   <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                    <p><strong>The foundation of Android development is built on Java – both a blessing and a curse for companies looking to create an Android app.</strong><br />
                       <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      Java is one of the most popular languages, and is often one of the first taught to developers in school. What this translates to is a sea of developers that all claim to understand and be proficient in Java. This volume makes it difficult to differentiate between merely competent and highly talented Android developers. Many of the times Android App development projects fail for the incompetence of developers. Dream71 Bangladesh Ltd is one of the leading Android App Development companies in Bangladesh which comes with the promise of understanding the requirement and delivering in the most finest possible manner.<br />
                       <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                      </p>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>
@@ -152,12 +152,18 @@ class Service extends Component {
                 
                 <li className="col-sm-5">
                   <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                    <p><strong>Our software teams help our customers build  customized software - everything from web to desktop to enterprise to mobile and beyond. </strong><br />
                       <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      We hire only the best. Our culture helps us retain our talents and our skill development programs ensure that we are always on the top of recent developments. Whether they are in, mobile application development or building web apps or custom desktop tools, our clients get top professionals working for them,
+
+We have been building software for various industries since 2004. We have worked with many technology platforms and have collaborated with many teams over these years.   
+
+Our clients get a team of their own – it is as simple as that. There is no red tape – the team adapts to the working process of the client and are there as one of their own.
+
+Our dev center is based in Bangladesh and our costs are typically less than 30% of similar service costs in the West.<br />
                       <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                      </p>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>
@@ -239,12 +245,12 @@ class Service extends Component {
                 
                 <li className="col-sm-5">
                   <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                    <p><strong>We’re in a world that changes by the minute, where free media has greater reach and credibility than paid media and where prospects talk about you and your competition 24/7.It’s a world where not just desktops and mobile phones – but TV programs, billboards and newspapers are going digital.</strong><br />
                       <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      A world where industrial era practices of command-and-control or even Kotler-type 4P approaches simply don’t cut it anymore. A world that demands a different kind of business and brand thinking.<br />
                       <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                      </p>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>
@@ -268,12 +274,14 @@ class Service extends Component {
                 
                 <li className="col-sm-5">
                   <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                    <p><strong>Design and pursuit right IT strategy that drives unceasing growth</strong><br />
                       <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      Internet of Things. Artificial Intelligence. Big Data. Cloud Computing.<br />
                       <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                      They have changed business landscape far more than any time ever. Survival in business world depends only on one thing. Quick adoption with the change. And for this technological era, implementing IT is the only choice that businesses have. Survival and unceasing growth in ever changing business dynamics derived from well designed and well executed IT strategy.
+
+We understand the huge array of challenges faced by businesses and is dedicated to offer comprehensive IT consultancy support that caters to the personalized needs of organizations. We are devoted in creating and adding value to businesses in order to grant them an edge over competitors. DataSoft meticulously analyzes the IT complications faced by its clients and advises them on tackling operations through effective and efficient methodologies. It helps organizations settle on the most appropriate degree of automation in order for them to benefit through cognition. We help organizations grow with its bottomless industry proficiency and essentially redesigns client experiences.</p>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>

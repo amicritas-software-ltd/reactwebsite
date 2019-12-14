@@ -16,7 +16,7 @@ class Testimonial extends Component {
               UOU Apps, is by far one of the worlds best known brands.
             </p>
             <h6>
-              Sabbir Ahmed / <span className="primary-color">Amicritas.LTD</span>
+            Rashad Kabir / <span className="primary-color">Dream 71</span>
             </h6>
           </div>
         </div>

@@ -4127,7 +4127,7 @@ header .navbar li.active a {
 	margin-top: 30px;
 }
 .services .col-md-3 article a {
-	padding: 40px 25px;
+  padding: 40px 25px;
 }
 .inside-colio .nav-stacked {
 	background: #fff;
@@ -5372,11 +5372,11 @@ color:green !important;
 	height: 12px;
 	width: 12px;
 	border-radius: 50%;
-	border: 1px solid #c1c1c1;
+	border: 1px solid #3c1053;
 	display: inline-block;
 }
 .owl-dots div.active span {
-	background: #fff;
+	background: #3c1053;
 }
 .owl-dots div span:hover {
 	background: #fff;

@@ -21,7 +21,6 @@ class Team extends Component {
                   />
                   <h5>Md. Sabbir Ahmed</h5>
                   <span>Managing Director</span>
-                  <p>Leader</p>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/Fun2uze">
@@ -56,10 +55,6 @@ class Team extends Component {
                   />
                   <h5>M Sourav Hossain</h5>
                   <span>Head of Administration</span>
-                  <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
-                  </p>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/msouravju">
@@ -94,10 +89,6 @@ class Team extends Component {
                   />
                   <h5>Istiak Ahmed</h5>
                   <span>Mobile App Developer</span>
-                  <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
-                  </p>
                   <ul className="social">
                     <li>
                       <a href="#.">
@@ -132,10 +123,6 @@ class Team extends Component {
                   />
                   <h5>Priyanka Sharma</h5>
                   <span>Marketting Executive</span>
-                  <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
-                  </p>
                   <ul className="social">
                     <li>
                       <a href="#.">

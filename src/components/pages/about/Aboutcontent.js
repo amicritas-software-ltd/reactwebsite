@@ -13,22 +13,15 @@ class Aboutcontent extends Component {
                 <div className="col-md-6">
                   <h3 className="font-normal">who we are</h3>
                   <h6>
-                    Pushing out limits to provide the highest quality services
+                  Welcome to  Amicritas Software Ltd., one of the best software companies in Bangladesh.
                   </h6>
                   <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci. Nam congue,
-                    pede vitae dapibus aliquet, elit magna vulputate arcu, vel
-                    tempus metus leo non est. <br />
+                  Welcome to a company where your ideas count, where your determination creates a new world, where your talent and hard-works are rewarded. At Dream71 we always endeavor to lead towards development and creating a flexible, dynamic and cooperative organizational cultural.<br />
                     <br />
-                    Etiam sit amet lectus quis est congue mollis. Phasellus
-                    congue lacus eget neque. Phasellus ornare, ante vitae
-                    consectetuer consequat, purus sapien ultricies dolor, et
-                    mollis pede metus eget nisi.
+                    Amicritas Software Ltd. is one of the promising software, web application & mobile application development companies of Bangladesh which aims at creating a new standard in the era of software technology.
                     <br />
                     <br />
-                    Phasellus ornare, ante vitae consectetuer consequat, purus
-                    sapien ultricies dolor,
+                    Today we're proud to boast a strong team of Developers, who thrive on rolling up their sleeves and convert your imaginations into code and meeting your business needs.
                   </p>
                 </div>
                 <div className="col-md-6">
@@ -37,9 +30,7 @@ class Aboutcontent extends Component {
                       <i className="fa fa-eye"></i>
                       <h5>our vision</h5>
                       <p>
-                        Phasellus congue lacus eget neque. Phasellus ornare,
-                        vitae consectetuer consequat, purus sapien ultricies
-                        dolor,
+                        Amicritas will be the first choice solution partner in the technology sector providing IT and Communication services to businesses throughout the region.
                       </p>
                     </li>
 
@@ -47,9 +38,7 @@ class Aboutcontent extends Component {
                       <i className="fa fa-rocket"></i>
                       <h5>our mission</h5>
                       <p>
-                        Phasellus congue lacus eget neque. Phasellus ornare,
-                        vitae consectetuer consequat, purus sapien ultricies
-                        dolor,
+                      To be the global leader in IT Services. Building on our technologies, competencies and customer interests, and creating value for our stakeholders and customers.
                       </p>
                     </li>
 
@@ -57,9 +46,7 @@ class Aboutcontent extends Component {
                       <i className="fa fa-diamond"></i>
                       <h5>our vision</h5>
                       <p>
-                        Phasellus congue lacus eget neque. Phasellus ornare,
-                        vitae consectetuer consequat, purus sapien ultricies
-                        dolor,
+                        We will become and integral part of our clients's success, collaborating with them to achieve their strategic objectives whilst creating long lasting business value through the delivery and management of their technology.
                       </p>
                     </li>
 
@@ -67,9 +54,7 @@ class Aboutcontent extends Component {
                       <i className="fa fa-flag"></i>
                       <h5>our vision</h5>
                       <p>
-                        Phasellus congue lacus eget neque. Phasellus ornare,
-                        vitae consectetuer consequat, purus sapien ultricies
-                        dolor,
+                        Our team of talented,experienced and motivated industry specialists will be recognised as the best in their field. Our continued success will be driven by our people who will share in it.
                       </p>
                     </li>
                   </ul>

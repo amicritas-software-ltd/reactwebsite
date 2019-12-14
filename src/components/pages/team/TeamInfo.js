@@ -47,10 +47,6 @@ class TeamInfo extends Component {
                     />
                     <h5>Jeff Walsh</h5>
                     <span>CEO</span>
-                    <p>
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                      ultricies purus, sed posuere libero dui id orci.
-                    </p>
                     <ul className="social">
                       <li>
                         <a href="#.">
@@ -84,9 +80,6 @@ class TeamInfo extends Component {
                   />
                   <h5>Md.Sabbir Ahmed</h5>
                   <span>Managing Director</span>
-                  <p>
-                    Leader
-                  </p>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/Fun2uze">
@@ -120,11 +113,7 @@ class TeamInfo extends Component {
                     alt="member2"
                   />
                   <h5>Sourav Hossain</h5>
-                  <span>Admin</span>
-                  <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
-                  </p>
+                  <span>Admin and HR</span>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/msouravju">
@@ -159,10 +148,6 @@ class TeamInfo extends Component {
                   />
                   <h5>Sourav Istiak</h5>
                   <span>Mobile App Developer</span>
-                  <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
-                  </p>
                   <ul className="social">
                     <li>
                       <a href="#.">
@@ -197,10 +182,6 @@ class TeamInfo extends Component {
                   />
                   <h5>Priyanka Sharma</h5>
                   <span>Marketting Executive</span>
-                  <p>
-                    Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                    ultricies purus, sed posuere libero dui id orci.
-                  </p>
                   <ul className="social">
                     <li>
                       <a href="#.">
@@ -233,11 +214,7 @@ class TeamInfo extends Component {
                       alt="team"
                     />
                     <h5>Colin Weiland</h5>
-                    <span>New Business Manager</span>
-                    <p>
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                      ultricies purus, sed posuere libero dui id orci.
-                    </p>
+                    <span>Business Advisor</span>
                     <ul className="social">
                       <li>
                         <a href="#.">
@@ -271,10 +248,6 @@ class TeamInfo extends Component {
                     />
                     <h5>Anonymous</h5>
                     <span>Web Developer</span>
-                    <p>
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula
-                      ultricies purus, sed posuere libero dui id orci.
-                    </p>
                     <ul className="social">
                       <li>
                         <a href="#.">

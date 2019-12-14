@@ -35,7 +35,7 @@ class Counter extends Component {
                       className="timer"
                       data-speed="5000"
                       data-refresh-interval="5"
-                      data-to="482"
+                      data-to="9045"
                       data-from="0"
                     ></span>
                   </span>
@@ -50,7 +50,7 @@ class Counter extends Component {
                       className="timer"
                       data-speed="5000"
                       data-refresh-interval="5"
-                      data-to="42"
+                      data-to="553"
                       data-from="0"
                     ></span>
                   </span>
@@ -65,7 +65,7 @@ class Counter extends Component {
                       className="timer"
                       data-speed="5000"
                       data-refresh-interval="5"
-                      data-to="3"
+                      data-to="17"
                       data-from="0"
                     ></span>
                   </span>

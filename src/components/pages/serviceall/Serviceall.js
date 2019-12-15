@@ -20,27 +20,23 @@ class Service extends Component {
           <li className="col-md-3" data-content="#colio_c1">
             <article className="thumb"> <a className="button colio-link" href="#."> <i className="fa fa-cogs"></i>
               <h5>Web Development</h5>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
          
           <li className="col-md-3" data-content="#colio_c2">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-android"></i>
               <h5>Mobile App</h5>
-              <p><b>The foundation of Android development is built on Java – both a blessing and a curse for companies looking to create an Android app.</b></p>
               </a> </article>
           </li>
          
           <li className="col-md-3" data-content="#colio_c3">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-desktop"></i>
               <h5>Software Solutions</h5>
-              <p><b>Our software teams help our customers to build  customized software - everything from web to desktop to enterprise to mobile and beyond.</b></p>
               </a> </article>
           </li>
           <li className="col-md-3" data-content="#colio_c4">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-chrome"></i>
               <h5>Hosting & Domain</h5>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
           </ul>
@@ -50,28 +46,24 @@ class Service extends Component {
           <li className="col-md-3" data-content="#colio_c5">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-wrench"></i>
               <h5>Advanced Electronics</h5>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c6">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-bar-chart"></i>
               <h5>Digital Marketing</h5>
-              <p><b>We’re in a world that changes by the minute, where free media has greater reach and credibility than paid media and where prospects talk about you and your competition 24/7.It’s a world where not just desktops and mobile phones – but TV programs, billboards and newspapers are going digital.</b></p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c7">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-laptop"></i>
               <h5>IT Supports</h5>
-              <p><b>Design and pursuit right IT strategy that drives unceasing growth</b></p>
               </a> </article>
           </li>
           
           <li className="col-md-3" data-content="#colio_c8">
             <article className="thumb"><a className="button colio-link" href="#."> <i className="fa fa-rocket"></i>
               <h5>Robotics Solutions</h5>
-              <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue.</b></p>
               </a> </article>
           </li>
           
@@ -93,13 +85,17 @@ class Service extends Component {
               <ul className="row">
                 
                 <li className="col-sm-5">
-                  <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                <article className="text-left">
+                    <p><strong>Here we provide Web App development, Static Website Development, Ecommerce Web Development and Web Maintenance </strong>
                       <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
+                      We are expert in Custom Social Networking Web App Development.
                       <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                      Web 3.0 is the next generation transformation of the World Wide Web.
+                      <br />
+                      Our web team is able to handle any programming task regardless of the size.
+                      <br />
+                      We have mastered the script and worked on dozens of websites.</p>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>
@@ -186,13 +182,10 @@ Our dev center is based in Bangladesh and our costs are typically less than 30% 
               <ul className="row">
                 
                 <li className="col-sm-5">
-                  <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
-                      <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
-                      <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                <article className="text-left">
+                    <p><strong>We Provide Linux Hosting, Corporate Shared Hosting & Virtual Private Server</strong><br />
+                      </p>
+                      </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>
@@ -221,7 +214,7 @@ Our dev center is based in Bangladesh and our costs are typically less than 30% 
                       Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
                       <br />
                       Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>
@@ -305,12 +298,10 @@ We understand the huge array of challenges faced by businesses and is dedicated 
                 
                 <li className="col-sm-5">
                   <article className="text-left">
-                    <p><strong>Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus.</strong><br />
+                    <p><strong>We specializes in customizing your robotic milling needs. From foam to stone, we’ve got you covered. </strong><br />
                       <br />
-                      Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. <br />
-                      <br />
-                      Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam.</p>
-                    <a href="#." className="btn btn-1">Read More <i className="fa fa-caret-right"></i></a></article>
+                      RSI has built and installed hundreds of robots since the beginning in 2004, giving us unmatched experience in this field. We have customers from around the world making our expert staff available to provide the knowledge and training needed to run the robots flawlessly. We provide turnkey packages that include the robot and controller, safety setup, software, training, and support. We make sure that you receive everything you need to make your investment worth while. </p>
+                    </article>
                 </li>
                 <li className="col-sm-7"> <img  src="http://new.uouapps.com/iod-html/html/images/img-responsive.png" alt="ipad" /> </li>
               </ul>

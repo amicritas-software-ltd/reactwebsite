@@ -3408,7 +3408,7 @@ li {
 }
 a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #00ff00;
 }
 .font-open-sans {
 	font-family: 'Open Sans', sans-serif;
@@ -4740,7 +4740,7 @@ header .navbar li.active a {
 	padding: 20px 0;
 }
 .post-detail span {
-	color: #d0d0d0;
+	color: #949494;
 	display: inline-block;
 	width: 100%;
 	font-size: 12px;

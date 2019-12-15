@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Portfolio from "./pages/portfolio";
 import Jobs from "./pages/Jobs";
+import Presentation from "./pages/Presentation";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/jobs" component={Jobs} />
+          <Route path="/presentation" component={Presentation} />
         </div>
       </Router>
     );

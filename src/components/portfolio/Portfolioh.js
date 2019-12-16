@@ -28,24 +28,24 @@ class Portfolioh extends Component {
                   All
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".ana" className="cbp-filter-item">
-                  Websites
+                <div data-filter=".web" className="cbp-filter-item">
+                  Web Development
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".dial" className="cbp-filter-item">
-                  Mobile App
+                <div data-filter=".mobile" className="cbp-filter-item">
+                  Mobile app
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".direc" className="cbp-filter-item">
-                  Software
+                <div data-filter=".software" className="cbp-filter-item">
+                  Softwares
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".growth" className="cbp-filter-item">
+                <div data-filter=".service" className="cbp-filter-item">
                   IT Services
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".sec" className="cbp-filter-item">
-                  Security
+                <div data-filter=".other" className="cbp-filter-item">
+                  Others
                   <div className="cbp-filter-counter"></div>
                 </div>
               </div>
@@ -69,10 +69,7 @@ class Portfolioh extends Component {
                 />
                 <div className="over-detail">
                   <div className="top-detail">
-                    <a
-                      href="ajax-work/project1.html"
-                      className="cbp-singlePage"
-                    >
+                    <a href="#.">
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -101,10 +98,7 @@ class Portfolioh extends Component {
                 />
                 <div className="over-detail">
                   <div className="top-detail">
-                    <a
-                      href="ajax-work/project2.html"
-                      className="cbp-singlePage"
-                    >
+                    <a href="#.">
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -133,10 +127,7 @@ class Portfolioh extends Component {
 
                 <div className="over-detail">
                   <div className="top-detail">
-                    <a
-                      href="ajax-work/project3.html"
-                      className="cbp-singlePage"
-                    >
+                    <a href="#.">
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -166,10 +157,7 @@ class Portfolioh extends Component {
 
                 <div className="over-detail">
                   <div className="top-detail">
-                    <a
-                      href="ajax-work/project4.html"
-                      className="cbp-singlePage"
-                    >
+                    <a href="#.">
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -199,10 +187,7 @@ class Portfolioh extends Component {
 
                 <div className="over-detail">
                   <div className="top-detail">
-                    <a
-                      href="ajax-work/project5.html"
-                      className="cbp-singlePage"
-                    >
+                    <a href="#.">
                       <i className="fa fa-link"></i>
                     </a>
                     <a
@@ -232,10 +217,7 @@ class Portfolioh extends Component {
 
                 <div className="over-detail">
                   <div className="top-detail">
-                    <a
-                      href="ajax-work/project6.html"
-                      className="cbp-singlePage"
-                    >
+                    <a href="#.">
                       <i className="fa fa-link"></i>
                     </a>
                     <a

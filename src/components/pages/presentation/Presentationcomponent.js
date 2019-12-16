@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
+import presentationImage from "./img/1.jpg";
 
 const images = [
   "//placekitten.com/1500/500",
@@ -27,9 +28,12 @@ class Presentationcomponent extends Component {
     }
     return (
       <div>
-        <button type="button" onClick={() => this.setState({ isOpen: true })}>
-          Open Lightbox
-        </button>
+        <div className="container text-center">
+          <h4>Please click below image to see full presentation.</h4>
+          <hr />
+          <br />
+          <img className="img-responsive" style={{cursor:"pointer"}} alt="presentation" src={presentationImage} onClick={() => this.setState({ isOpen: true })} />
+        </div>
 
         {isOpen && (
           <Lightbox

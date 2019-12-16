@@ -13,7 +13,7 @@ import Footer from "../components/footer/Footer";
 import Bottomfooter from "../components/footer/Bottomfooter";
 
 class Home extends Component {
-  state = {};
+  state = {}
   render() {
     return (
       <div>

@@ -20,6 +20,11 @@ class Presentationcomponent extends Component {
   }
   render() {
     const { photoIndex, isOpen } = this.state;
+    const modalStyle = {
+      overlay: {
+        zIndex: 9999
+      }
+    }
     return (
       <div>
         <button type="button" onClick={() => this.setState({ isOpen: true })}>
@@ -28,6 +33,7 @@ class Presentationcomponent extends Component {
 
         {isOpen && (
           <Lightbox
+            reactModalStyle={modalStyle}
             mainSrc={images[photoIndex]}
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}

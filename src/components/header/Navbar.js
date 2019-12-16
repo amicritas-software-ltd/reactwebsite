@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-default" id="mNavbar">
-        <div className="container">
+        <div className="container-fluid">
           <div className="navbar-header">
             <button
               type="button"
@@ -38,6 +38,9 @@ class Navbar extends Component {
               </li>
               <li>
                 <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/products">Products</Link>
               </li>
               <li>
                 <Link to="/team">Our Team</Link>

@@ -13,7 +13,8 @@ class Jobs extends Component {
         name: "Presentation"
       };
 
-    render = () => (
+    render() {
+      return (
         <header>
             <Header></Header>
             <Pagetop
@@ -25,7 +26,8 @@ class Jobs extends Component {
             <Footer></Footer>
             <Bottomfooter></Bottomfooter>
             </header>
-    )
+    );
+    }
 }
 
 export default Jobs;

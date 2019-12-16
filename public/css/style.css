@@ -4174,7 +4174,7 @@ header .navbar li.active a {
 	width: 100%;
 	position:relative;
 	margin-top: 53px;
-	background: url(../images/bg/ser-bg.jpg) center center repeat-y;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmvj6kRvy6jDdakj79fL3q696uo3EVfe2P7zcdfEGeKW0TcQJw) center center repeat-y;
 	background-size: cover;
 }
 
@@ -7130,4 +7130,19 @@ body{
   header .navbar li{
     margin: 0 !important;
   }
+}
+
+.rotateonhover{
+  transition: 0.70s;
+}
+.rotateonhover:hover{
+  transition: 0.70s;
+  transform: rotate(15deg);
+}
+.rotateImage{
+  transition: 0.70s;
+}
+.rotateImage:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
+import iphoneImage from "./img/iphone.png";
 
 class Features extends Component {
   render() {
@@ -7,19 +8,19 @@ class Features extends Component {
       <section className="features light-gray-bg padding-top-70 padding-bottom-70">
         <div className="container">
           <div className="heading text-center">
-            <h4>outstanding features</h4>
+            <h4>Why Choose Us</h4>
           </div>
           <AnimatedOnScroll animationIn="fadeInUp" animationOut="" animationInDuration={1000} animationOutDuration={5000} isVisible={true}>
           <div className="list-style-featured">
             <div className="row no-margin">
               <div className="col-md-4 no-padding">
                 <ul className="text-right">
-                  <li>
+                  <li className="rotateonhover">
                     <div className="media">
                       <div className="media-body">
-                        <h6>IT & Software Solutions</h6>
+                        <h6>All in one IT Services</h6>
                         <p>
-                          Networking issues, Software reverse engineering and Software Optimization.
+                          Web, Mobile, Software solutions with SEO, Marketing & Business plan.
                         </p>
                       </div>
                       <div className="media-right">
@@ -29,12 +30,12 @@ class Features extends Component {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li className="rotateonhover">
                     <div className="media">
                       <div className="media-body">
-                        <h6>Responsive Designs</h6>
+                        <h6>Responsive Design</h6>
                         <p>
-                          Providing responsive designs for websites and mobile apps.
+                          We make your product responsive to use it on any devices and any platform.
                         </p>
                       </div>
                       <div className="media-right">
@@ -44,12 +45,27 @@ class Features extends Component {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li className="rotateonhover">
                     <div className="media">
                       <div className="media-body">
-                        <h6>IT Courses</h6>
+                        <h6>Basic Training</h6>
                         <p>
-                          Providing websites that support all browsers.
+                          We provide you training depend on your need after product development.
+                        </p>
+                      </div>
+                      <div className="media-right">
+                        <div className="icon">
+                          <i className="fa fa-chrome"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="rotateonhover">
+                    <div className="media">
+                      <div className="media-body">
+                        <h6>24/7 technical Support</h6>
+                        <p>
+                          We give 24/7 premium support to our respected customers.
                         </p>
                       </div>
                       <div className="media-right">
@@ -62,17 +78,17 @@ class Features extends Component {
                 </ul>
               </div>
 
-              <div className="col-md-4 text-center no-padding">
+              <div className="col-md-4 text-center no-padding rotateImage">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/iphone.png"
+                  src={iphoneImage}
                   alt="iphone"
                 />
               </div>
 
               <div className="col-md-4 no-padding">
                 <ul>
-                  <li>
+                  <li className="rotateonhover">
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
@@ -80,14 +96,14 @@ class Features extends Component {
                         </div>
                       </div>
                       <div className="media-body">
-                        <h6>Easy to Customize</h6>
+                        <h6>Innovative Ideas</h6>
                         <p>
-                          Easy customizable projects for websites and mobile apps.
+                          We help our clients by giving ideas to grow their business more fast.
                         </p>
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li className="rotateonhover">
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
@@ -95,14 +111,14 @@ class Features extends Component {
                         </div>
                       </div>
                       <div className="media-body">
-                        <h6>Exlusive Features</h6>
+                        <h6>Security & Stability</h6>
                         <p>
-                          Robotics Solutions, Advanced Electronics Solutions and Technical Supports.
+                          We focus on security and maintain it by our certified ethical hackers.
                         </p>
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li className="rotateonhover">
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
@@ -110,10 +126,24 @@ class Features extends Component {
                         </div>
                       </div>
                       <div className="media-body">
-                        <h6>Innovative Ideas</h6>
+                        <h6>We are experienced</h6>
                         <p>
-                          Pharmacy Management System
-                          More than 200+ websites and App Demos.
+                          We have 5+ years experienced developers ready to serve you.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="rotateonhover">
+                    <div className="media">
+                      <div className="media-left">
+                        <div className="icon">
+                          <i className="fa fa-lightbulb-o"></i>
+                        </div>
+                      </div>
+                      <div className="media-body">
+                        <h6>We focus on your Demand</h6>
+                        <p>
+                          We make what you exactly want. We care your think too.
                         </p>
                       </div>
                     </div>

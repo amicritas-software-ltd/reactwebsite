@@ -9,6 +9,7 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/portfolio";
 import Jobs from "./pages/Jobs";
 import Presentation from "./pages/Presentation";
+import Products from "./pages/Products";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/team" component={Team} />
           <Route path="/services" component={Services} />
+          <Route path="/products" component={Products} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />

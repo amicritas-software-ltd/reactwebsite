@@ -13,7 +13,7 @@ class About extends Component {
     background:
       "http://new.uouapps.com/iod-html/html/images/bg/sub-bnr-bg-1.jpg",
     name: "About"
-  };
+  }
 
   render() {
     return (

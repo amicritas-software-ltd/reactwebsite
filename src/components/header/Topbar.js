@@ -5,7 +5,7 @@ class Topbar extends Component {
     return (
       <div className="top-bar">
         <div className="top-info">
-          <div className="container">
+          <div className="container-fluid">
             <ul className="personal-info">
               <li>
                 <p>

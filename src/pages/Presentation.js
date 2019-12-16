@@ -13,19 +13,21 @@ class Presentation extends Component {
     name: "Presentation"
   };
 
-  render = () => (
-    <header>
-      <Header></Header>
-      <Pagetop
-        Title={this.state.title}
-        Background={this.state.background}
-        Name={this.state.name}
-      />
-      <Presentationcomponent></Presentationcomponent>
-      <Footer></Footer>
-      <Bottomfooter></Bottomfooter>
-    </header>
-  );
+  render() {
+    return (
+      <header>
+        <Header></Header>
+        <Pagetop
+          Title={this.state.title}
+          Background={this.state.background}
+          Name={this.state.name}
+        />
+        <Presentationcomponent></Presentationcomponent>
+        <Footer></Footer>
+        <Bottomfooter></Bottomfooter>
+      </header>
+    );
+  }
 }
 
 export default Presentation;

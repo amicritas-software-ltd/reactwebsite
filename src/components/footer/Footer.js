@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FacebookPage from "../FacebookPage";
 import Logo from "../../logo.png";
 class Footer extends Component {
   render() {
@@ -12,7 +13,8 @@ class Footer extends Component {
                 <ul>
                   <li>
                     <p>
-                      <i className="fa fa-map-marker"></i> House:1E,Road:04,Sector:11,Uttara
+                      <i className="fa fa-map-marker"></i>{" "}
+                      House:1E,Road:04,Sector:11,Uttara
                     </p>
                   </li>
                   <li>
@@ -30,29 +32,8 @@ class Footer extends Component {
             </div>
 
             <div className="col-md-3">
-              <h6>Twitter Feed</h6>
-              <ul className="tweet">
-                <li>
-                  <p>
-                    A Guide to Better Brainstorming
-                    <a href="#." className="primary-color">
-                      http://enva.to/nfNrz
-                    </a>
-                    by @jeff_haden
-                  </p>
-                  <span>May 22, 2014</span>
-                </li>
-                <li>
-                  <p>
-                    Are you a student? You only have 48 hours left to grab a
-                    full year on Tuts+ for just $45! Don't miss out.
-                    <a href="#." className="primary-color">
-                      abc
-                    </a>
-                  </p>
-                  <span>May 22, 2014</span>
-                </li>
-              </ul>
+              <h6>Like Us on Facebook</h6>
+              <FacebookPage></FacebookPage>
             </div>
 
             <div className="col-md-3">
@@ -110,7 +91,7 @@ class Footer extends Component {
             </div>
 
             <div className="col-md-3">
-              <h6>Categories</h6>
+              <h6>Usefull Tags</h6>
               <ul className="tags">
                 <li>
                   <a href="#.">User Experience</a>

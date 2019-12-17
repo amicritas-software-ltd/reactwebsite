@@ -16,7 +16,7 @@ class Aboutcontent extends Component {
                   Welcome to  Amicritas Software Ltd., one of the best software companies in Bangladesh.
                   </h6>
                   <p>
-                  Welcome to a company where your ideas count, where your determination creates a new world, where your talent and hard-works are rewarded. At Dream71 we always endeavor to lead towards development and creating a flexible, dynamic and cooperative organizational cultural.<br />
+                  Welcome to a company where your ideas count, where your determination creates a new world, where your talent and hard-works are rewarded. At Amicritas we always endeavor to lead towards development and creating a flexible, dynamic and cooperative organizational cultural.<br />
                     <br />
                     Amicritas Software Ltd. is one of the promising software, web application & mobile application development companies of Bangladesh which aims at creating a new standard in the era of software technology.
                     <br />

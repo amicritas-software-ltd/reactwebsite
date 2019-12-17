@@ -34,7 +34,7 @@ class Portfolioc extends Component {
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".growth" className="cbp-filter-item">
-                IT Services
+                IT Solutions
                 <div className="cbp-filter-counter"></div>
               </div>
               <div data-filter=".sec" className="cbp-filter-item">

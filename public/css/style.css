@@ -3408,7 +3408,7 @@ li {
 }
 a {
 	text-decoration: none;
-	color: #00ff00;
+  color: #C33764;
 }
 .font-open-sans {
 	font-family: 'Open Sans', sans-serif;
@@ -3465,7 +3465,7 @@ p.intro-small {
 	font-weight: bold !important;
 }
 a:hover, a:focus {
-	color: #ad5389;
+	color: #677bee;
 }
 .primary-color {
 	color: #ad5389 !important;
@@ -4852,9 +4852,8 @@ color:green !important;
 	border: none !important;
 	display: inline-block;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 	margin: 0 !important;
-	text-align: right;
 }
 .pagination ul li {
 	border: none;
@@ -5783,7 +5782,7 @@ a.sm-tags:hover {
 	overflow: hidden;
 }
 .products article:hover .item-img img {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 .products article img {
 	width: 100%;

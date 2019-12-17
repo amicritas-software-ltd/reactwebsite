@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import Pagetop from "../components/pages/Pagetop";
 import Footer from "../components/footer/Footer";
 import Bottomfooter from "../components/footer/Bottomfooter";
+import Product from "../components/pages/products/Product"
 class Products extends Component {
     state = {
         title: "Products",
@@ -19,9 +20,7 @@ class Products extends Component {
                 Background={this.state.background}
                 Name={this.state.name}
             />
-            <div className="text-center">
-                <h1>Under Construction</h1>
-            </div>
+            <Product></Product>
             <Footer></Footer>
             <Bottomfooter></Bottomfooter>
             </div>

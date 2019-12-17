@@ -41,7 +41,7 @@ class Portfolioh extends Component {
                   <div className="cbp-filter-counter"></div>
                 </div>
                 <div data-filter=".service" className="cbp-filter-item">
-                  IT Services
+                  IT Solutions
                   <div className="cbp-filter-counter"></div>
                 </div>
                 <div data-filter=".other" className="cbp-filter-item">

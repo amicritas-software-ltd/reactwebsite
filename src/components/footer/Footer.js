@@ -94,31 +94,49 @@ class Footer extends Component {
               <h6>Usefull Tags</h6>
               <ul className="tags">
                 <li>
-                  <a href="#.">User Experience</a>
+                  <a href="#.">Mobile App</a>
                 </li>
                 <li>
-                  <a href="#.">html 5</a>
+                  <a href="#.">Website</a>
                 </li>
                 <li>
-                  <a href="#.">Css 3</a>
+                  <a href="#.">Software</a>
                 </li>
                 <li>
-                  <a href="#.">Web Design</a>
+                  <a href="#.">Ecommerce</a>
                 </li>
                 <li>
-                  <a href="#.">Social Media</a>
+                  <a href="#.">Android</a>
                 </li>
                 <li>
-                  <a href="#.">Web Development</a>
+                  <a href="#.">iOS</a>
                 </li>
                 <li>
-                  <a href="#.">Print Design</a>
+                  <a href="#.">Electronics</a>
                 </li>
                 <li>
-                  <a href="#.">e-commerce</a>
+                  <a href="#.">Robotics</a>
                 </li>
                 <li>
-                  <a href="#.">Java script</a>
+                  <a href="#.">Domain</a>
+                </li>
+                <li>
+                  <a href="#.">Hosting</a>
+                </li>
+                <li>
+                  <a href="#.">Digital Marketing</a>
+                </li>
+                <li>
+                  <a href="#.">IT</a>
+                </li>
+                <li>
+                  <a href="#.">Amicritas</a>
+                </li>
+                <li>
+                  <a href="#.">Web Application</a>
+                </li>
+                <li>
+                  <a href="#.">Technology</a>
                 </li>
               </ul>
             </div>

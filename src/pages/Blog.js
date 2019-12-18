@@ -21,7 +21,7 @@ class Blog extends Component{
           Background={this.state.background}
           Name={this.state.name}
         />
-        <Bloginfo></Bloginfo>
+            <Bloginfo></Bloginfo>
             <Footer></Footer>
             <Bottomfooter></Bottomfooter>
             </header>

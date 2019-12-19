@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FacebookPage from "../FacebookPage";
 import Logo from "../../logo.png";
+import Tags from "../tags/Tags";
 class Footer extends Component {
   render() {
     return (
@@ -92,53 +93,7 @@ class Footer extends Component {
 
             <div className="col-md-3">
               <h6>Usefull Tags</h6>
-              <ul className="tags">
-                <li>
-                  <a href="#.">Mobile App</a>
-                </li>
-                <li>
-                  <a href="#.">Website</a>
-                </li>
-                <li>
-                  <a href="#.">Software</a>
-                </li>
-                <li>
-                  <a href="#.">Ecommerce</a>
-                </li>
-                <li>
-                  <a href="#.">Android</a>
-                </li>
-                <li>
-                  <a href="#.">iOS</a>
-                </li>
-                <li>
-                  <a href="#.">Electronics</a>
-                </li>
-                <li>
-                  <a href="#.">Robotics</a>
-                </li>
-                <li>
-                  <a href="#.">Domain</a>
-                </li>
-                <li>
-                  <a href="#.">Hosting</a>
-                </li>
-                <li>
-                  <a href="#.">Digital Marketing</a>
-                </li>
-                <li>
-                  <a href="#.">IT</a>
-                </li>
-                <li>
-                  <a href="#.">Amicritas</a>
-                </li>
-                <li>
-                  <a href="#.">Web Application</a>
-                </li>
-                <li>
-                  <a href="#.">Technology</a>
-                </li>
-              </ul>
+              <Tags></Tags>
             </div>
           </div>
         </div>

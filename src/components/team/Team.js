@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
+import CEO from "./img/CEO.png";
+import Director from "./img/Director.png";
+import Managing_Director from "./img/Managing Director.png";
+import Admin from "./img/Admin.png";
+
 class Team extends Component {
   render() {
     return (
@@ -14,12 +19,44 @@ class Team extends Component {
             <div className="row">
               <div className="col-md-3">
                 <article>
-                  <img
-                    className="img-responsive"
-                    src="http://new.uouapps.com/iod-html/html/images/team-img-1-1.jpg"
-                    alt="member1"
-                  />
-                  <h5>Md. Sabbir Ahmed</h5>
+                <img
+                      className="img-responsive"
+                      src={CEO} alt="CEO"
+                    />
+                    <h5>Ashraful Alam Neerob</h5>
+                    <span>Chairman</span>
+                    <ul className="social">
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-google"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+
+              <div className="col-md-3">
+                <article>
+                <img
+                      className="img-responsive"
+                      src={Managing_Director} alt="Managing Director"
+                    />
+                  <h5>Md.Sabbir Ahmed</h5>
                   <span>Managing Director</span>
                   <ul className="social">
                     <li>
@@ -36,7 +73,7 @@ class Team extends Component {
                       <a href="#.">
                         <i className="fa fa-google"></i>
                       </a>
-                    </li>
+                      </li>
                     <li>
                       <a href="#.">
                         <i className="fa fa-linkedin"></i>
@@ -48,84 +85,48 @@ class Team extends Component {
 
               <div className="col-md-3">
                 <article>
-                  <img
-                    className="img-responsive"
-                    src="http://solidman.org/wp-content/uploads/2015/11/ken_curry_bw_270px.jpg"
-                    alt="member2"
-                  />
-                  <h5>M Sourav Hossain</h5>
-                  <span>Head of Administration</span>
+                <img
+                      className="img-responsive"
+                      src={Director} alt="Director"
+                    />
+                    <h5>Shamima Akhter Riya</h5>
+                    <span>Director</span>
+                    <ul className="social">
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-google"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#.">
+                          <i className="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+
+              <div className="col-md-3">
+                <article>
+                <img
+                      className="img-responsive"
+                      src={Admin} alt="Admin"
+                    />
+                  <h5>Sourav Hossain</h5>
+                  <span>Admin and HR</span>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/msouravju">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-google"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </article>
-              </div>
-
-              <div className="col-md-3">
-                <article>
-                  <img
-                    className="img-responsive"
-                    src="http://new.uouapps.com/iod-html/html/images/team-img-1-3.jpg"
-                    alt="member3"
-                  />
-                  <h5>Istiak Ahmed</h5>
-                  <span>Mobile App Developer</span>
-                  <ul className="social">
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-google"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#.">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </article>
-              </div>
-
-              <div className="col-md-3">
-                <article>
-                  <img
-                    className="img-responsive"
-                    src="http://new.uouapps.com/iod-html/html/images/team-img-1-4.jpg"
-                    alt="member4"
-                  />
-                  <h5>Priyanka Sharma</h5>
-                  <span>Marketting Executive</span>
-                  <ul className="social">
-                    <li>
-                      <a href="#.">
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>

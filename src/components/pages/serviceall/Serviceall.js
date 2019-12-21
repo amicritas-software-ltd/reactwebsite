@@ -4,10 +4,10 @@ import image1 from "./img/1.png";
 import image2 from "./img/2.png";
 import image3 from "./img/3.png";
 import image4 from "./img/4.png";
-import image5 from "./img/5.jpg";
-import image6 from "./img/6.png";
-import image7 from "./img/7.png";
-import image8 from "./img/8.png";
+import image5 from "./img/automation.png";
+import image6 from "./img/digital marketing.png";
+import image7 from "./img/IT.png";
+import image8 from "./img/Robotics.jpg";
 
 class Service extends Component {
     render() { 
@@ -102,8 +102,8 @@ class Service extends Component {
                 
                 <li className="col-sm-5">
                 <article className="text-left">
-                    <p><strong>We have a team of Talented, Certified and strongly skilled developers to serve you the best design and development services.</strong>
-                      <br /><br />
+                    <p><strong>We have a team of Talented, Certified and strongly skilled developers to serve you the best design and development services.</strong><br/>
+                      <br />
                       <strong>What services we are offering:</strong>
                       <br />
                       <i className="fa fa-check"></i> E-commerce & Online shop
@@ -155,7 +155,7 @@ class Service extends Component {
                 <li className="col-sm-5">
                 <article className="text-left">
                     <p><strong>We build your android IOS or windows mobile app to work exactly like you want! We focus on your demand and give you a best output.</strong><br />
-                      <br />
+                    <br />
                       <strong>We are offering android, IOS or windows app for:</strong>
                       <br />
                       <i className="fa fa-check"></i> E-commerce & Online shop apps
@@ -207,7 +207,7 @@ class Service extends Component {
                 <li className="col-sm-5">
                 <article className="text-left">
                     <p><strong>Our software engineers help you to build customized software - everything from web to desktop to enterprise to mobile and beyond. </strong><br />
-                      <br />
+                    <br />
                       <strong>The software solutions we are giving:</strong>
                       <br />
                       <i className="fa fa-check"></i> Accounting software for businesses
@@ -258,8 +258,8 @@ class Service extends Component {
                 
                 <li className="col-sm-5">
                 <article className="text-left">
-                    <p><strong>You can buy a domain and hosting packages from us in a minute! get a cheap and fast hosting server now!</strong><br />
-                    <br />
+                    <p><strong>You can buy a domain and hosting packages from us in a minute! get a cheap and fast hosting server now!</strong>
+                    <br /><br />
                       <strong>Our domain & hosting features are:</strong>
                       <br />
                       <i className="fa fa-check"></i> Any kind of domain TLD's
@@ -362,7 +362,13 @@ class Service extends Component {
                       <br />
                       <i className="fa fa-check"></i> Programmatic Advertising.
                       <br />
+                      <i className="fa fa-check"></i> SEO Optimization.
+                      <br />
+                      <i className="fa fa-check"></i> Social Media Marketing.
+                      <br />
                       <i className="fa fa-check"></i> Video Marketing.
+                      <br />
+                      <i className="fa fa-check"></i> Mobile Advertising.
                       </p>
                       </article>
                 </li>

@@ -55,7 +55,7 @@ class Features extends Component {
                       </div>
                       <div className="media-right">
                         <div className="icon">
-                          <i className="fa fa-chrome"></i>
+                          <i className="fa fa-book"></i>
                         </div>
                       </div>
                     </div>
@@ -70,7 +70,7 @@ class Features extends Component {
                       </div>
                       <div className="media-right">
                         <div className="icon">
-                          <i className="fa fa-chrome"></i>
+                          <i className="fa fa-user-circle"></i>
                         </div>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ class Features extends Component {
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
-                          <i className="fa fa-gear"></i>
+                          <i className="fa fa-lightbulb-o"></i>
                         </div>
                       </div>
                       <div className="media-body">
@@ -107,7 +107,7 @@ class Features extends Component {
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
-                          <i className="fa fa-star-o"></i>
+                          <i className="fa fa-shield"></i>
                         </div>
                       </div>
                       <div className="media-body">
@@ -122,7 +122,7 @@ class Features extends Component {
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
-                          <i className="fa fa-lightbulb-o"></i>
+                          <i className="fa fa-free-code-camp"></i>
                         </div>
                       </div>
                       <div className="media-body">
@@ -137,7 +137,7 @@ class Features extends Component {
                     <div className="media">
                       <div className="media-left">
                         <div className="icon">
-                          <i className="fa fa-lightbulb-o"></i>
+                          <i className="fa fa-eercast"></i>
                         </div>
                       </div>
                       <div className="media-body">

@@ -5,6 +5,9 @@ import Director from "./img/Director.png";
 import Managing_Director from "./img/Managing Director.png";
 import Admin from "./img/Admin.png";
 import Mobile_App_Developer from "./img/Mobile App Developer.png";
+import ME1 from "./img/ME1.jpg";
+import ME2 from "./img/ME2.jpg";
+import ME3 from "./img/ME3.jpg";
 
 class TeamInfo extends Component {
   render() {
@@ -34,6 +37,11 @@ class TeamInfo extends Component {
                   Mobile App Developer
                 </a>
               </li>
+              <li className="filter-item">
+                <a href="#." data-filter=".ee" className="">
+                  Electronics
+                </a>
+                </li>
               <li className="filter-item">
                 <a href="#." data-filter=".market" className="">
                   Marketing
@@ -238,21 +246,19 @@ class TeamInfo extends Component {
                       <a href="#.">
                         <i className="fa fa-linkedin"></i>
                       </a>
-                    </li>
-                    
+                    </li>  
                   </ul>
                 </article>
                 </li>
-
-                <li className="col-md-3 item web styleli4">
+                <li className="col-md-3 item ee styleli4">
                   <article className="text-left">
                   <img
                     className="img-responsive"
                     src="http://new.uouapps.com/iod-html/html/images/team-img-1-1.jpg"
                     alt="member4"
                   />
-                  <h5>Kamrul Hasan</h5>
-                  <span>Web Developer</span>
+                  <h5>Ranjan Banik</h5>
+                  <span>Marketting Executive</span>
                   <ul className="social">
                     <li>
                       <a href="#.">
@@ -273,8 +279,103 @@ class TeamInfo extends Component {
                       <a href="#.">
                         <i className="fa fa-linkedin"></i>
                       </a>
+                    </li>  
+                  </ul>
+                </article>
+                </li>
+                <li className="col-md-3 item gd market styleli4">
+                  <article className="text-left">
+                  <img
+                    className="img-responsive"
+                    src={ME1} alt="Marketing Executive"
+                  />
+                  <h5>Rayhan Chowdhury</h5>
+                  <span>Marketting Executive</span>
+                  <ul className="social">
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-facebook"></i>
+                      </a>
                     </li>
-                    
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-google"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>  
+                  </ul>
+                </article>
+                </li>
+                <li className="col-md-3 item gd market styleli4">
+                  <article className="text-left">
+                  <img
+                    className="img-responsive"
+                    src={ME3} alt="Marketing Executive"
+                  />
+                  <h5>Alamin Hossain</h5>
+                  <span>Marketting Executive</span>
+                  <ul className="social">
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-google"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>  
+                  </ul>
+                </article>
+                </li>
+                <li className="col-md-3 item gd market styleli4">
+                  <article className="text-left">
+                  <img
+                    className="img-responsive"
+                    src={ME2} alt="Marketing Executive"
+                  />
+                  <h5>Zaed Hossen Melon</h5>
+                  <span>Marketting Executive</span>
+                  <ul className="social">
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-google"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>  
                   </ul>
                 </article>
                 </li>

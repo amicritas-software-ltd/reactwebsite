@@ -6,8 +6,7 @@ import banner from "./img/banner.jpg";
 class Post2 extends Component {
   state = {
     title: "second space innovation summit begins friday",
-    image:
-      {post2},
+    image: post2,
     day: "23",
     month: "August",
     path: "/post/second-space-innovation",
@@ -17,8 +16,7 @@ class Post2 extends Component {
     tag1: "Space News",
     tag2: "Technology",
     tag3: "Nasa",
-    background:
-      {banner},
+    background: banner,
     name: "Post"
   };
   render() {

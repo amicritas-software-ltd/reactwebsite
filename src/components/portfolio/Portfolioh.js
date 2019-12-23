@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
-import img1 from "./img/img1.jpg";
-import img2 from "./img/img2.jpg";
-import img3 from "./img/img3.jpg";
-import img4 from "./img/img4.jpg";
-import img5 from "./img/img5.jpg";
-import img6 from "./img/img6.jpg";
+import PortfolioItem1 from "../pages/portfolioc/item/Item1";
 
 class Portfolioh extends Component {
   render() {
@@ -35,7 +30,7 @@ class Portfolioh extends Component {
                   All
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".web" className="cbp-filter-item">
+                <div data-filter=".website" className="cbp-filter-item">
                   Web Development
                   <div className="cbp-filter-counter"></div>
                 </div>
@@ -47,7 +42,7 @@ class Portfolioh extends Component {
                   Softwares
                   <div className="cbp-filter-counter"></div>
                 </div>
-                <div data-filter=".service" className="cbp-filter-item">
+                <div data-filter=".solution" className="cbp-filter-item">
                   IT Solutions
                   <div className="cbp-filter-counter"></div>
                 </div>
@@ -67,182 +62,7 @@ class Portfolioh extends Component {
           isVisible={true}
         >
           <div className="ajax-work col-3">
-            <div className="cbp-item ana dial security">
-              <article className="item">
-                <img
-                  className="img-responsive"
-                  src={img1}
-                  alt="portfolio1"
-                />
-                <div className="over-detail">
-                  <div className="top-detail">
-                    <a href="#.">
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      href="http://new.uouapps.com/iod-html/html/images/portfolio/img-1.jpg"
-                      className="cbp-lightbox"
-                      data-title=""
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </div>
-
-                  <div className="bottom-detail">
-                    <h3>Long Project Title can go Here</h3>
-                    <span>Category Name</span>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div className="cbp-item ana dial sec mobile app">
-              <article className="item">
-                <img
-                  className="img-responsive"
-                  src={img2}
-                  alt=""
-                />
-                <div className="over-detail">
-                  <div className="top-detail">
-                    <a href="#.">
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      href="http://new.uouapps.com/iod-html/html/images/portfolio/img-2.jpg"
-                      className="cbp-lightbox"
-                      data-title=""
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </div>
-
-                  <div className="bottom-detail">
-                    <h3>Long Project Title can go Here</h3>
-                    <span>Category Name</span>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div className="cbp-item ana sec websites websites">
-              <article className="item">
-                <img
-                  className="img-responsive"
-                  src={img3}
-                  alt=""
-                />
-
-                <div className="over-detail">
-                  <div className="top-detail">
-                    <a href="#.">
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      href="http://new.uouapps.com/iod-html/html/images/portfolio/img-3.jpg"
-                      className="cbp-lightbox"
-                      data-title=""
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </div>
-
-                  <div className="bottom-detail">
-                    <h3>Long Project Title can go Here</h3>
-                    <span>Category Name</span>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div className="cbp-item ana sec websites websites">
-              <article className="item">
-                <img
-                  className="img-responsive"
-                  src={img4}
-                  alt=""
-                />
-
-                <div className="over-detail">
-                  <div className="top-detail">
-                    <a href="#.">
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      href="http://new.uouapps.com/iod-html/html/images/portfolio/img-4.jpg"
-                      className="cbp-lightbox"
-                      data-title=""
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </div>
-
-                  <div className="bottom-detail">
-                    <h3>Long Project Title can go Here</h3>
-                    <span>Category Name</span>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div className="cbp-item ana sec">
-              <article className="item">
-                <img
-                  className="img-responsive"
-                  src={img5}
-                  alt=""
-                />
-
-                <div className="over-detail">
-                  <div className="top-detail">
-                    <a href="#.">
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      href="http://new.uouapps.com/iod-html/html/images/portfolio/img-5.jpg"
-                      className="cbp-lightbox"
-                      data-title=""
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </div>
-
-                  <div className="bottom-detail">
-                    <h3>Long Project Title can go Here</h3>
-                    <span>Category Name</span>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div className="cbp-item ana dial direc">
-              <article className="item">
-                <img
-                  className="img-responsive"
-                  src={img6}
-                  alt=""
-                />
-
-                <div className="over-detail">
-                  <div className="top-detail">
-                    <a href="#.">
-                      <i className="fa fa-link"></i>
-                    </a>
-                    <a
-                      href="http://new.uouapps.com/iod-html/html/images/portfolio/img-6.jpg"
-                      className="cbp-lightbox"
-                      data-title=""
-                    >
-                      <i className="fa fa-search"></i>
-                    </a>
-                  </div>
-
-                  <div className="bottom-detail">
-                    <h3>Long Project Title can go Here</h3>
-                    <span>Category Name</span>
-                  </div>
-                </div>
-              </article>
-            </div>
+            <PortfolioItem1></PortfolioItem1>
           </div>
         </AnimatedOnScroll>
         <AnimatedOnScroll

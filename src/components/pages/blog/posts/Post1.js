@@ -7,8 +7,7 @@ class Post1 extends Component {
   state = {
     title:
       "Facebook to allow all users with option to opt out of face recognition",
-    image:
-      {post1},
+    image: post1,
     day: "11",
     month: "July",
     path: "/post/facebook-to-allow-all-users",
@@ -18,8 +17,7 @@ class Post1 extends Component {
     tag1: "Facebook",
     tag2: "Face-Recognition",
     tag3: "technology",
-    background:
-      {banner},
+    background: banner,
     name: "Post"
   };
   render() {

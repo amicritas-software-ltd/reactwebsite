@@ -6,8 +6,7 @@ import banner from "./img/banner.jpg";
 class Post3 extends Component {
   state = {
     title: "Should Oracle Split?",
-    image:
-      {post3},
+    image: post3,
     day: "13",
     month: "October",
     path: "/post/should-oracle-split",
@@ -17,8 +16,7 @@ class Post3 extends Component {
     tag1: "Database",
     tag2: "Oracle",
     tag3: "technology",
-    background:
-      {banner},
+    background: banner,
     name: "Post"
   };
   render() {

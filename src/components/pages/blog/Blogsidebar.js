@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Tags from "../../tags/Tags";
+import post1 from "./posts/img/post1.jpg";
+import post2 from "./posts/img/post2.jpg";
+import post3 from "./posts/img/post3.jpg";
+
 class Blogsidebar extends Component {
   render() {
     return (
@@ -12,7 +16,7 @@ class Blogsidebar extends Component {
               <Link href="/post/facebook-to-allow-all-users">
                 <img
                   className="media-object"
-                  src="https://www.datocms-assets.com/9406/1549543117-code-2000x1125.jpg"
+                  src={post1}
                   alt="facebook"
                 />
               </Link>
@@ -33,7 +37,7 @@ class Blogsidebar extends Component {
               <Link to="/post/second-space-innovation">
                 <img
                   className="media-object"
-                  src="https://images.idgesg.net/images/article/2017/08/4_software-engineering-100733150-large.jpg"
+                  src={post2}
                   alt="space"
                 />
               </Link>
@@ -53,7 +57,7 @@ class Blogsidebar extends Component {
               <Link to="/post/should-oracle-split">
                 <img
                   className="media-object"
-                  src="https://www.technotification.com/wp-content/uploads/2018/04/software-developer-vs-software-engineer.jpg"
+                  src={post3}
                   alt="oracle "
                 />
               </Link>

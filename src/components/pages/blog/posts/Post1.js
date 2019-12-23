@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Post from "../Post";
+import post1 from "./img/post1.jpg";
+import banner from "./img/banner.jpg";
+
 class Post1 extends Component {
   state = {
     title:
       "Facebook to allow all users with option to opt out of face recognition",
     image:
-      "https://media-eng.dhakatribune.com/uploads/2019/04/untitled-1-1554447289881.jpg",
+      {post1},
     day: "11",
     month: "July",
     path: "/post/facebook-to-allow-all-users",
@@ -16,7 +19,7 @@ class Post1 extends Component {
     tag2: "Face-Recognition",
     tag3: "technology",
     background:
-      "http://new.uouapps.com/iod-html/html/images/bg/sub-bnr-bg-1.jpg",
+      {banner},
     name: "Post"
   };
   render() {

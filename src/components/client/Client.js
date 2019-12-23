@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
+import client1 from "./img/client1.jpg";
+import client2 from "./img/client2.jpg";
+import client3 from "./img/client3.jpg";
+import client4 from "./img/client4.jpg";
+import client5 from "./img/client5.jpg";
+
 class Client extends Component {
   render() {
     return (
@@ -21,7 +27,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-1.jpg"
+                      src={client1}
                       alt="client 1"
                     />
                   </a>
@@ -30,7 +36,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-2.jpg"
+                      src={client2}
                       alt="client 2"
                     />
                   </a>
@@ -39,7 +45,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-3.jpg"
+                      src={client3}
                       alt="client 3"
                     />
                   </a>
@@ -48,7 +54,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-4.jpg"
+                      src={client4}
                       alt="client 4"
                     />
                   </a>
@@ -57,7 +63,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-5.jpg"
+                      src={client5}
                       alt="client 5"
                     />
                   </a>
@@ -70,7 +76,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-4.jpg"
+                      src={client4}
                       alt="client 6"
                     />
                   </a>
@@ -79,7 +85,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-5.jpg"
+                      src={client5}
                       alt="client 7"
                     />
                   </a>
@@ -88,7 +94,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-3.jpg"
+                      src={client3}
                       alt="client 8"
                     />
                   </a>
@@ -97,7 +103,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-1.jpg"
+                      src={client1}
                       alt="client 9"
                     />
                   </a>
@@ -106,7 +112,7 @@ class Client extends Component {
                   <a href="#.">
                     <img
                       className="img-responsive"
-                      src="http://new.uouapps.com/iod-html/html/images/client-img-2.jpg"
+                      src={client2}
                       alt="client 10"
                     />
                   </a>

@@ -8,6 +8,8 @@ import Mobile_App_Developer from "./img/Mobile App Developer.png";
 import ME1 from "./img/ME1.jpg";
 import ME2 from "./img/ME2.jpg";
 import ME3 from "./img/ME3.jpg";
+import ME4 from "./img/ME4.png";
+import electronics from "./img/electronics.png";
 
 class TeamInfo extends Component {
   render() {
@@ -221,7 +223,7 @@ class TeamInfo extends Component {
                   <article className="text-left">
                   <img
                     className="img-responsive"
-                    src="http://new.uouapps.com/iod-html/html/images/team-img-1-4.jpg"
+                    src={ME4}
                     alt="member4"
                   />
                   <h5>Priyanka Sharma</h5>
@@ -254,11 +256,11 @@ class TeamInfo extends Component {
                   <article className="text-left">
                   <img
                     className="img-responsive"
-                    src="http://new.uouapps.com/iod-html/html/images/team-img-1-1.jpg"
+                    src={electronics}
                     alt="member4"
                   />
                   <h5>Ranjan Banik</h5>
-                  <span>Marketting Executive</span>
+                  <span>Electronics Engineer</span>
                   <ul className="social">
                     <li>
                       <a href="#.">

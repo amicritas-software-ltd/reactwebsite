@@ -1,39 +1,40 @@
 import React, { Component } from "react";
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
 import HorizontalTimeline from "react-horizontal-timeline";
+import timeline from "./img/timeline.jpg"
 
 const EXAMPLE = [
   {
     data: "Sep 22 2015",
-    imgsrc: "http://new.uouapps.com/iod-html/html/images/time-line-img.jpg",
+    imgsrc: {timeline},
     title: "title 1",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit Ab quos minus iste eum distinctio illum aliquam perferendis delectus quo voluptatum accusamus velit sequi culpa, quibusdam, temporibus eligendi, doloremque itaque voluptates."
   },
   {
     data: "Aug 03 2016",
-    imgsrc: "http://new.uouapps.com/iod-html/html/images/time-line-img.jpg",
+    imgsrc: {timeline},
     title: "title 2",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit Ab quos minus iste eum distinctio illum aliquam perferendis delectus quo voluptatum accusamus velit sequi culpa, quibusdam, temporibus eligendi, doloremque itaque voluptates."
   },
   {
     data: "Dec 25 2017",
-    imgsrc: "http://new.uouapps.com/iod-html/html/images/time-line-img.jpg",
+    imgsrc: {timeline},
     title: "title 3",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit Ab quos minus iste eum distinctio illum aliquam perferendis delectus quo voluptatum accusamus velit sequi culpa, quibusdam, temporibus eligendi, doloremque itaque voluptates."
   },
   {
     data: "Feb 23 2018",
-    imgsrc: "http://new.uouapps.com/iod-html/html/images/time-line-img.jpg",
+    imgsrc: {timeline},
     title: "title 4",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit Ab quos minus iste eum distinctio illum aliquam perferendis delectus quo voluptatum accusamus velit sequi culpa, quibusdam, temporibus eligendi, doloremque itaque voluptates."
   },
   {
     data: "Aug 25 2019",
-    imgsrc: "http://new.uouapps.com/iod-html/html/images/time-line-img.jpg",
+    imgsrc: {timeline},
     title: "title 5",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit Ab quos minus iste eum distinctio illum aliquam perferendis delectus quo voluptatum accusamus velit sequi culpa, quibusdam, temporibus eligendi, doloremque itaque voluptates."

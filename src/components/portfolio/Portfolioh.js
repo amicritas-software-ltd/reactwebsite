@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
+import img1 from "./img/img1.jpg";
+import img2 from "./img/img2.jpg";
+import img3 from "./img/img3.jpg";
+import img4 from "./img/img4.jpg";
+import img5 from "./img/img5.jpg";
+import img6 from "./img/img6.jpg";
+
 class Portfolioh extends Component {
   render() {
     return (
@@ -64,7 +71,7 @@ class Portfolioh extends Component {
               <article className="item">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/portfolio/img-1.jpg"
+                  src={img1}
                   alt="portfolio1"
                 />
                 <div className="over-detail">
@@ -93,7 +100,7 @@ class Portfolioh extends Component {
               <article className="item">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/portfolio/img-2.jpg"
+                  src={img2}
                   alt=""
                 />
                 <div className="over-detail">
@@ -121,7 +128,7 @@ class Portfolioh extends Component {
               <article className="item">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/portfolio/img-3.jpg"
+                  src={img3}
                   alt=""
                 />
 
@@ -151,7 +158,7 @@ class Portfolioh extends Component {
               <article className="item">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/portfolio/img-4.jpg"
+                  src={img4}
                   alt=""
                 />
 
@@ -181,7 +188,7 @@ class Portfolioh extends Component {
               <article className="item">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/portfolio/img-5.jpg"
+                  src={img5}
                   alt=""
                 />
 
@@ -211,7 +218,7 @@ class Portfolioh extends Component {
               <article className="item">
                 <img
                   className="img-responsive"
-                  src="http://new.uouapps.com/iod-html/html/images/portfolio/img-6.jpg"
+                  src={img6}
                   alt=""
                 />
 

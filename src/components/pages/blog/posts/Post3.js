@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import Post from "../Post";
-class Post1 extends Component {
+import post3 from "./img/post3.jpg";
+import banner from "./img/banner.jpg";
+
+class Post3 extends Component {
   state = {
     title: "Should Oracle Split?",
     image:
-      "https://www.technewsworld.com/article_images/story_graphics_xlarge/xl-2017-oracle-headquarters-1.jpg",
+      {post3},
     day: "13",
     month: "October",
     path: "/post/should-oracle-split",
@@ -15,7 +18,7 @@ class Post1 extends Component {
     tag2: "Oracle",
     tag3: "technology",
     background:
-      "http://new.uouapps.com/iod-html/html/images/bg/sub-bnr-bg-1.jpg",
+      {banner},
     name: "Post"
   };
   render() {
@@ -38,4 +41,4 @@ class Post1 extends Component {
   }
 }
 
-export default Post1;
+export default Post3;

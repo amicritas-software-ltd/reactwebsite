@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import Post from "../Post";
-class Post1 extends Component {
+import post2 from "./img/post2.jpg";
+import banner from "./img/banner.jpg";
+
+class Post2 extends Component {
   state = {
     title: "second space innovation summit begins friday",
     image:
-      "https://media-eng.dhakatribune.com/uploads/2019/07/spaceinnovation-1563473509281.jpg",
+      {post2},
     day: "23",
     month: "August",
     path: "/post/second-space-innovation",
@@ -15,7 +18,7 @@ class Post1 extends Component {
     tag2: "Technology",
     tag3: "Nasa",
     background:
-      "http://new.uouapps.com/iod-html/html/images/bg/sub-bnr-bg-1.jpg",
+      {banner},
     name: "Post"
   };
   render() {
@@ -38,4 +41,4 @@ class Post1 extends Component {
   }
 }
 
-export default Post1;
+export default Post2;

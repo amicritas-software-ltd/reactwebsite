@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
 import Blogsidebar from "./Blogsidebar";
+import post1 from "./posts/img/post1.jpg";
+import post2 from "./posts/img/post2.jpg";
+import post3 from "./posts/img/post3.jpg";
 
 class BlogInfo extends Component {
   render() {
@@ -21,7 +24,7 @@ class BlogInfo extends Component {
                   <article>
                     <img
                       className="img-responsive"
-                      src="https://media-eng.dhakatribune.com/uploads/2019/04/untitled-1-1554447289881.jpg"
+                      src={post1}
                       alt="facebook"
                     />
                     <div className="date">
@@ -52,7 +55,7 @@ class BlogInfo extends Component {
                   <article>
                     <img
                       className="img-responsive"
-                      src="https://media-eng.dhakatribune.com/uploads/2019/07/spaceinnovation-1563473509281.jpg"
+                      src={post2}
                       alt="space"
                     />
                     <div className="date">
@@ -83,7 +86,7 @@ class BlogInfo extends Component {
                   <article>
                     <img
                       className="img-responsive"
-                      src="https://www.technewsworld.com/article_images/story_graphics_xlarge/xl-2017-oracle-headquarters-1.jpg"
+                      src={post3}
                       alt="oracle"
                     />
                     <div className="date">

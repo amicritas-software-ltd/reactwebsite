@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import HorizontalTimeline from "react-horizontal-timeline";
-import timeline from "./img/timeline.jpg";
+import timeline from "./img/img1.png";
 
 const EXAMPLE = [
   {
     data: "Sep 22 2015",
     imgsrc: timeline,
-    title: "title 1",
+    title: "Barta Pratikkhan",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit Ab quos minus iste eum distinctio illum aliquam perferendis delectus quo voluptatum accusamus velit sequi culpa, quibusdam, temporibus eligendi, doloremque itaque voluptates."
+      "Barta Pratikkhan is a online news portal website."
   },
   {
     data: "Aug 03 2016",

@@ -2,6 +2,13 @@ import React, { Component } from "react";
 import FacebookPage from "../FacebookPage";
 import Logo from "../../logo.png";
 import Tags from "../tags/Tags";
+import Image1 from "./img/img1.png";
+import Image2 from "./img/img2.png";
+import Image3 from "./img/img3.png";
+import Image4 from "./img/img4.png";
+import Image5 from "./img/img5.png";
+import Image6 from "./img/img6.png";
+
 class Footer extends Component {
   render() {
     return (
@@ -43,7 +50,7 @@ class Footer extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      src="http://new.uouapps.com/iod-html/html/images/photo-img-1.jpg"
+                      src={Image1}
                       alt="img1"
                     />
                   </a>
@@ -51,7 +58,7 @@ class Footer extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      src="http://new.uouapps.com/iod-html/html/images/photo-img-2.jpg"
+                      src={Image2}
                       alt="img2"
                     />
                   </a>
@@ -59,7 +66,7 @@ class Footer extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      src="http://new.uouapps.com/iod-html/html/images/photo-img-3.jpg"
+                      src={Image3}
                       alt="img3"
                     />
                   </a>
@@ -67,7 +74,7 @@ class Footer extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      src="http://new.uouapps.com/iod-html/html/images/photo-img-4.jpg"
+                      src={Image4}
                       alt="img4"
                     />
                   </a>
@@ -75,7 +82,7 @@ class Footer extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      src="http://new.uouapps.com/iod-html/html/images/photo-img-5.jpg"
+                      src={Image5}
                       alt="img5"
                     />
                   </a>
@@ -83,7 +90,7 @@ class Footer extends Component {
                 <li>
                   <a href="#.">
                     <img
-                      src="http://new.uouapps.com/iod-html/html/images/photo-img-6.jpg"
+                      src={Image6}
                       alt="img6"
                     />
                   </a>

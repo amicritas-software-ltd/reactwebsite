@@ -40,18 +40,16 @@ class Navbar extends Component {
                 <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/products">Products</Link>
-              </li>
-              <li>
-                <Link to="/team">Our Team</Link>
-              </li>
-              <li>
                 <Link to="/presentation">Presentation</Link>
               </li>
-
-              
               <li>
                 <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/team">Team</Link>
+              </li>
+              <li>
+                <Link to="/products">Products</Link>
               </li>
               <li>
                 <Link to="/blog">Blog</Link>

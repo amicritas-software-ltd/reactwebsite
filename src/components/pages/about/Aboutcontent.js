@@ -52,7 +52,7 @@ class Aboutcontent extends Component {
 
                     <li className="col-sm-6">
                       <i className="fa fa-flag"></i>
-                      <h5>our vision</h5>
+                      <h5>our Mission</h5>
                       <p>
                         Our team of talented,experienced and motivated industry specialists will be recognised as the best in their field. Our continued success will be driven by our people who will share in it.
                       </p>

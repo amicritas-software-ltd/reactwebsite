@@ -13,10 +13,10 @@ class Testimonial extends Component {
             <p>
               There are design companies, and then there are user experience,
               design, consulting, interface design, brilliant, and professional.
-              UOU Apps, is by far one of the worlds best known brands.
+              Amicritas Software LTD., is one of the best software company of Bangladesh which provide us all of this.
             </p>
             <h6>
-            Rashad Kabir / <span className="primary-color">Dream 71</span>
+            Rabbani Prottoy / <span className="primary-color">B.R.A.I.N Corporation</span>
             </h6>
           </div>
         </div>

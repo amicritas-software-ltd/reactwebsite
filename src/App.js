@@ -21,14 +21,15 @@ class App extends Component {
         <div id="wrap">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/team" component={Team} />
           <Route path="/services" component={Services} />
+          <Route path="/presentation" component={Presentation} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/team" component={Team} />
           <Route path="/products" component={Products} />
           <Route path="/blog" component={Blog} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} />
           <Route path="/jobs" component={Jobs} />
-          <Route path="/presentation" component={Presentation} />
+          <Route path="/contact" component={Contact} />
+          
           <Route path="/post/facebook-to-allow-all-users" component={Post1} />
           <Route path="/post/second-space-innovation" component={Post2} />
           <Route path="/post/should-oracle-split" component={Post3} />

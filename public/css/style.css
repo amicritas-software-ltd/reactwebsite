@@ -4977,23 +4977,21 @@ color:green !important;
 	border-bottom: 2px solid #e6e6e6;
 }
 .star-save {
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	float:right;
 }
 .star-save a {
 	height: 32px;
 	width: 32px;
 	color: #fff;
 	display: inline-block;
-	background: #cccccc;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	text-align: center;
 	line-height: 32px;
 	border-radius: 4px;
 	margin-left: 3px;
 }
 .star-save a:hover {
-	background: #1a1a1a;
+	background: #1a1a1a !important;
 }
 .grid-layout {
 	float: left;
@@ -5066,8 +5064,8 @@ color:green !important;
 }
 .job-content .share-info h6 {
 	font-size: 18px;
-	display: inline-block;
-	margin-top: 10px
+  margin-top: 10px;
+  float:left;
 }
 .job-content .share-info .social {
 	margin-top: 1px;
@@ -5087,14 +5085,14 @@ color:green !important;
 	padding: 0px;
 	display: inline-block;
 	text-align: center;
-	color: #a0a0a0;
+	color: #fff;
 	font-size: 10px;
 	border-radius: 4px;
-	background: #e6e6e6;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	margin-left: 5px;
 }
 .job-content .share-info .social li a:hover {
-	color: #fff;
+	color: #ccc;
 	background: linear-gradient(to right #ad5389, #1D2671);
 }
 .job-skills .progress {
@@ -5508,17 +5506,20 @@ footer .photo-steam li a:hover {
 .tags li a {
 	display: inline-block;
 	padding: 5px 8px;
-	background:#C33764;
+	background:#C33764 !important;
 	border: none !important;
 	border-radius: 4px;
 	color: #fff;
 	font-size: 12px;
 	text-transform: uppercase;
 }
+.tags li a:hover{
+  background: linear-gradient(to bottom, #ad5389, #3c1053) !important;
+}
 .sm-tags {
 	display: inline-block;
-	padding: 5px 8px;
-	background: #1D2671;
+	padding: 10px;
+	background: #C33764;
 	border: none !important;
 	border-radius: 4px;
 	color: #fff;
@@ -5526,7 +5527,7 @@ footer .photo-steam li a:hover {
 	text-transform: uppercase;
 }
 a.sm-tags:hover {
-	background: #1a1a1a;
+	background: linear-gradient(to bottom, #ad5389, #3c1053);
 	color: #fff;
 }
 .tags.dall li a {
@@ -6170,28 +6171,37 @@ a.sm-tags:hover {
 		CONTACT FORM
 ========================================================*/
 .contact-info {
-  background: url(http://funstuffdaily.com/wp-content/uploads/sites/2/2019/04/Southgate-Office.jpg) no-repeat;
+  background: url(https://i.imgur.com/fS1MEqp.png) fixed no-repeat;
   background-size: cover;
-  opacity: 0.95;
+}
+.contact-info:after{
+  opacity: 50%;
 }
 .contact-info li h5 {
 	font-size: 18px;
 	font-weight: normal;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 700;
 }
 .contact-info li article {
-	background: rgba(255,255,255,0.8);
+	background: linear-gradient(to right, #ad5389, #3c1053);
 	padding: 50px;
 	text-align: center;
 }
+.contact-info li article:hover{
+  background: linear-gradient(to left, #ad5389, #3c1053);
+}
 .contact-info li p {
-	margin: 0px;
+  margin: 0px;
+  color: #fff;
+  
 }
 .contact-info li span {
-	font-weight: bold;
+	
 	display: inline-block;
 	width: 100%;
-	color: #666666;
+	color: #fff;
 	margin-bottom: 5px;
 }
 #map {
@@ -6249,7 +6259,7 @@ a.sm-tags:hover {
 	font-family: 'Open Sans', sans-serif;
 }
 .contact-form label input {
-	border: 1px solid #000000;
+	border: 1px solid #b8c4df;
 	height: 40px;
 	padding: 0 20px;
 	border-radius: 0px;
@@ -6270,7 +6280,7 @@ a.sm-tags:hover {
 	color: #999999;
 	position: relative;
 	padding: 10px 20px;
-	border: 1px solid #000000;
+	border: 1px solid #b8c4df;
 	height: 200px;
 	border-radius: 4px;
 	background: #fff;
@@ -6282,10 +6292,10 @@ a.sm-tags:hover {
 	transition: all 0.4s ease-in-out;
 }
 .contact-form input:focus {
-	border: 1px solid #b8c4df !important;
+	border: 1px solid #000 !important;
 }
 .contact-form textarea:focus {
-	border: 1px solid #b8bbe6 !important;
+	border: 1px solid #000 !important;
 }
 /*=======================================================
 			ACCORDION
@@ -6360,8 +6370,9 @@ a.sm-tags:hover {
 	color: #555555;
 }
 .job-post-page {
-  padding-bottom: 0px;
-  margin-left: 55px;
+  padding: 20px;
+  margin-left: 120px;
+  margin-bottom: 50px;
 }
 .job-post-page .job-tittle {
 	margin-bottom: 10px;
@@ -7144,6 +7155,18 @@ body{
   transform: rotate(360deg);
 }
 
-.progress-bar{
-  width: 80%;
+.progress .progress-bar{
+  background-color: #C33764 !important;
+}
+
+.job-skills .tags li a{
+  margin-right: 5px !important;
+}
+.rabbani h4{
+  color: #fff !important;
+  font-weight: 7000;
+}
+.rabbani span{
+  color: #fff !important;
+  font-weight: 300;
 }

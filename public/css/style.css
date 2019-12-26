@@ -4971,8 +4971,9 @@ color:green !important;
 }
 .job-content {
 	background: #f7f7f7;
-	padding: 35px;
-	position: relative;
+	padding: 0px;
+  position: auto;
+  width: 1000px;
 	border-bottom: 2px solid #e6e6e6;
 }
 .star-save {
@@ -6359,11 +6360,8 @@ a.sm-tags:hover {
 	color: #555555;
 }
 .job-post-page {
-	padding-bottom: 0px;
-}
-.job-post-page .star-save {
-	margin-top: 35px;
-	margin-right: 35px;
+  padding-bottom: 0px;
+  margin-left: 55px;
 }
 .job-post-page .job-tittle {
 	margin-bottom: 10px;
@@ -7144,4 +7142,8 @@ body{
 .rotateImage:hover{
   transition: 0.70s;
   transform: rotate(360deg);
+}
+
+.progress-bar{
+  width: 80%;
 }

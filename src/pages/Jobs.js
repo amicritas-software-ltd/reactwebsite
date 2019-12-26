@@ -7,10 +7,10 @@ import Jobsinfo from "../components/pages/jobs/Jobsinfo";
 
 class Jobs extends Component {
     state = {
-        title: "Presentation",
+        title: "Jobs",
         background:
           "http://new.uouapps.com/iod-html/html/images/bg/sub-bnr-bg-1.jpg",
-        name: "Presentation"
+        name: "Jobs"
       };
 
     render() {

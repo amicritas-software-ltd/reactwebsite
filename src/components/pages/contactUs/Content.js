@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import MyMap from "./Map";
-import ContactForm from "./Form";
+import ContactForm from "./ContactForm";
 
 class Content extends Component {
   render() {

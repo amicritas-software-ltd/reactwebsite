@@ -42,12 +42,10 @@ class ContactForm extends Component {
           data:  this.state
         }).then((response)=>{
           if (response.data.status === 'success'){
-            this.setState({dangeralert: "none"})
             this.setState({successalert: "block"})
             this.forceUpdate();
             this.resetForm()
           }else if(response.data.status === 'fail'){
-            this.setState({successalert: "none"})
             this.setState({dangeralert: "block"})
             this.forceUpdate();
          }

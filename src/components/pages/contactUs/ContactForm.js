@@ -7,7 +7,9 @@ class ContactForm extends Component {
             name: "",
             email: "",
             subject: "",
-            message: ""
+            message: "",
+            successalert: "none",
+            dangeralert: "none"
         }
       }
       resetForm(){
@@ -40,15 +42,25 @@ class ContactForm extends Component {
           data:  this.state
         }).then((response)=>{
           if (response.data.status === 'success'){
-            alert("Message Sent."); 
+            this.setState({dangeralert: "none"})
+            this.setState({successalert: "block"})
+            this.forceUpdate();
             this.resetForm()
           }else if(response.data.status === 'fail'){
-            alert("Message failed to send.")
-          }
+            this.setState({successalert: "none"})
+            this.setState({dangeralert: "block"})
+            this.forceUpdate();
+         }
         })
       }
     render() { 
-        return ( 
+        return ( <div>
+          <div className="alert alert-success" style={{display: this.state.successalert}}>
+            <strong>Email sent!</strong> We will contact you soon.
+          </div>
+          <div className="alert alert-danger" style={{display: this.state.dangeralert}}>
+            <strong>Email not sent!</strong> May be there are a problem.
+          </div>
             <form id="contact_form" onSubmit={this.handleSubmit.bind(this)} className="contact-form" method="post">
         <ul className="row">
           <li className="col-sm-12">
@@ -119,10 +131,10 @@ class ContactForm extends Component {
             </button>
           </li>
         </ul>
-        <div>
-          
+        <div>    
         </div>
       </form>
+      </div>
          );
     }
 }

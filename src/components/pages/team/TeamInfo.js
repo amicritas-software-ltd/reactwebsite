@@ -9,6 +9,7 @@ import ME1 from "./img/ME1.jpg";
 import ME2 from "./img/ME2.jpg";
 import ME3 from "./img/ME3.jpg";
 import ME4 from "./img/ME4.png";
+import Web_Developer from "./img/web developer.png";
 import electronics from "./img/electronics.png";
 
 class TeamInfo extends Component {
@@ -212,6 +213,39 @@ class TeamInfo extends Component {
                     </li>
                     <li>
                       <a href="#.">
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </article>
+                </li>
+
+                <li className="col-md-3 item gd android web styleli3">
+                  <article className="text-left">
+                  <img
+                      className="img-responsive"
+                      src={Web_Developer} alt="Mobile App Developer"
+                    />
+                  <h5>Rabbani Prottoy</h5>
+                  <span>Web & Mobile App Developer</span>
+                  <ul className="social">
+                    <li>
+                      <a href="https://www.facebook.com/rabbani.prottoy14">
+                        <i className="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#.">
+                        <i className="fa fa-google"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/rabbani-prottoy-a54473170/">
                         <i className="fa fa-linkedin"></i>
                       </a>
                     </li>

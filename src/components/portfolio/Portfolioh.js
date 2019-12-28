@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Link } from "react-router-dom";
 import PortfolioItem1 from "../pages/portfolioc/item/Item1";
+import PortfolioItem2 from "../pages/portfolioc/item/Item2";
+import PortfolioItem3 from "../pages/portfolioc/item/Item3";
+import PortfolioItem4 from "../pages/portfolioc/item/Item4";
 
 class Portfolioh extends Component {
   render() {
@@ -63,6 +66,9 @@ class Portfolioh extends Component {
         >
           <div className="ajax-work col-3">
             <PortfolioItem1></PortfolioItem1>
+            <PortfolioItem2></PortfolioItem2>
+            <PortfolioItem3></PortfolioItem3>
+            <PortfolioItem4></PortfolioItem4>
           </div>
         </AnimatedOnScroll>
         <AnimatedOnScroll

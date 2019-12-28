@@ -6,7 +6,7 @@ class Product1 extends Component {
     state = {
         productclass : "col-md-3 col-xs-6",
         thumbnile : Thumbnile,
-        productname : "HTML5 Web Browser Game",
+        productname : "Online Tournament App",
         productalt : "Product 7"
       };
     render() {

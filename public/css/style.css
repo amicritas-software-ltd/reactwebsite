@@ -4548,7 +4548,7 @@ header .navbar li.active a {
 	bottom: 30px;
 }
 .portfolio .cbp-item article:hover .over-detail {
-	opacity: 0.45;
+	opacity: 0.8;
 }
 /*=======================================================
       PORTFOLIO COL
